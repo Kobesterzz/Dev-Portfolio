@@ -1,0 +1,77 @@
+#gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #cdeeff, #3300ff);
+  z-index: -1;
+}
+#object {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: -1;
+}
+#object2 {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+h2{
+  font-size: 20px;
+}
+
+
+i{
+  color: #3300ff;
+  
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sun{
+  height: 50px;
+}
+
+.landingPage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.landingQuote{
+  margin-left: 80px;
+}
+
+.intro{
+  font-size: 25px;
+}
+
+.line2{
+  margin-top: 45px;
+}
+
+.line3{
+  margin-top: 45px;
+}
+
+.paragraph{
+  margin-top: 45px;
+}
+
+span.emoji{
+  font-size: 70px;
+  margin-right: 130px;
+}
