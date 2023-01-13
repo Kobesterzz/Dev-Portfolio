@@ -1,36 +1,31 @@
-#gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, #cdeeff, #3300ff);
-  z-index: -1;
+
+body{
+  background-color: #1c1c2c;
 }
-#object {
-  position: absolute;
-  width: 50px;
-  height: 80px;
-  background-color: red;
-  border-radius: 50%;
-  z-index: -1;
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+  height:0;
 }
-#object2 {
-  position: absolute;
-  width: 80px;
-  height: 50px;
-  background-color: blue;
-  border-radius: 50%;
-  z-index: -1;
-}
+
 
 h2{
   font-size: 20px;
+  color: aliceblue;
 }
 
+button{
+  background: transparent;
+  border: 0px;
+}
+
+.logo{
+  color: rgb(255, 0, 255);
+}
 
 i{
-  color: #3300ff;
+  color: rgb(255, 0, 255);
   
 }
 
@@ -52,26 +47,86 @@ header{
 }
 
 .landingQuote{
-  margin-left: 80px;
+  margin-left: 110px;
 }
 
 .intro{
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.line1{
+  margin-top: 45px;
+  font-family: SF Pro;
+  color: #ffffff;
 }
 
 .line2{
   margin-top: 45px;
+  font-family: SF Pro;
+  color: rgb(0, 255, 0);
 }
 
 .line3{
   margin-top: 45px;
+  font-family: SF Pro;
+  color: #ffffff;
 }
 
 .paragraph{
   margin-top: 45px;
+  font-family: SF Pro;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 span.emoji{
-  font-size: 70px;
-  margin-right: 130px;
+  font-size: 120px;
+  margin-right: 150px;
+}
+
+#filter{
+  background: rgba(10, 10, 10, 0.55);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  z-index: -2;
+}
+
+#object2 {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(212, 0, 255);
+  border-radius: 50%;
+  z-index: -3;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  filter: blur(45px);
+}
+
+#object3 {
+  position: absolute;
+  width: 300px;
+  height: 240px;
+  background-color: rgb(13, 255, 0);
+  border-radius: 30%;
+  z-index: -3;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  filter: blur(45px);
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }
