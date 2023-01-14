@@ -23,11 +23,12 @@ document.addEventListener("mousemove", (event) => {
 const colorChanger = document.getElementById("colorChanger");
 
 function myFunction(){   
-document.body.style.backgroundColor= "white";
+document.body.style.backgroundColor= "rgb(216, 216, 216)";
 document.getElementById("filter").style.opacity = .02;
 document.getElementById('line1').style.color='rgb(255, 0, 255)';
 document.getElementById('line3').style.color='rgb(255, 0, 255)';
 document.getElementById('paragraph').style.color='rgb(255, 0, 255)';
+document..style.backgroundColor='red';
 }
 
 
@@ -36,10 +37,12 @@ window.onload = () => {
   const hamburgerButton = document.getElementById("hamburger-button");
   const modal = document.getElementById("modal");
   const closeButton = document.getElementById("close-button");
+  const animatedText = document.getElementById("animated-text");
   
   hamburgerButton.addEventListener("click", () => {
     modal.classList.add("modal-open");
     modal.classList.add("modal-animation");
+    //animatedText.classList.add("slide-in");
   });
   
   closeButton.addEventListener("click", () => {

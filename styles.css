@@ -18,7 +18,7 @@ body{
 
 h2{
   font-size: 20px;
-  color: aliceblue;
+  color: rgb(255, 237, 237);
 }
 
 button{
@@ -28,11 +28,15 @@ button{
 
 .logo{
   color: rgb(255, 0, 255);
+  margin-left: 15px;
 }
 
 .line {
   border-top: 2px solid rgba(212, 0, 255, 0.179);
-  width: 100%;
+  width: 95%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 i{
@@ -40,14 +44,23 @@ i{
   
 }
 
+a{
+  text-decoration: none;
+  color: rgb(255, 0, 242);
+  font-family: SF pro;
+}
+
 header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+ top: 0;
 }
 
 #sun{
   height: 50px;
+  margin-right: 15px;
 }
 
 .landingPage{
@@ -88,6 +101,7 @@ header{
   font-family: SF Pro;
   color: #ffffff;
   font-size: 25px;
+  margin-bottom: 80px;
 }
 
 span.emoji{
@@ -135,27 +149,59 @@ span.emoji{
 
 #modal {
   display: none;
-  position: absolute;
+  position:fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background: white;
+  background: rgba(58, 58, 58, 0.994);
   overflow-y: scroll;
-  z-index: 1;
+  z-index: 998;
+}
+
+.modal-content{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 30px;
+  row-gap: 30px;
+  font-size: 50px;
+}
+
+.modal-contact{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:30px;
+  font-size: 50px;
+}
+
+#animated-text {
+  transform: translateY(-20px);
+  /*opacity: 0;*/
+  animation: slide-in 1s ease-in;
+}
+
+
+header.modal-open {
+  position: static;
 }
 
 #modal.modal-open {
   display: block;
 }
 
+body.modal-open{
+  overflow: hidden;
+}
+
 #modal.modal-animation {
   animation: modal-in 0.5s;
 }
 
-#modal.modal-animation-out {
-  animation: modal-out 0.5s;
-}
 
 @keyframes modal-in {
   from {transform: translateY(-100%);}
@@ -173,5 +219,16 @@ span.emoji{
   }
   to {
       transform:rotate(360deg);
+  }
+}
+
+@keyframes slide-in {
+  from{
+      transform: translateY(0);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(-20);
+      opacity: 1;
   }
 }

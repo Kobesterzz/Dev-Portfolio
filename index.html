@@ -7,7 +7,9 @@
         <title>Document</title>
         <link rel='stylesheet' href='styles.css'>
         <script src="script.js" defer></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link 
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+        rel="stylesheet"  type='text/css'>
     </head>
     <body>
         <div id="filter"></div>
@@ -19,21 +21,39 @@
             <h1 class='logo'>logo</h1>
             <button id="hamburger-button"><i class=" fa-lg fa-2x fa fa-bars"></i></button>
             <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+            
         </header>
 
         <div class="line"></div>
 
         <div id="modal">
             <div id="modal-content">
+            <header>
+              <h1 class='logo'>logo</h1>
+              <button id="close-button"><i class="fa fa-lg fa-3x fa-close"></i></button>
+              <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+            </header>
+            <div class="line"></div>
               <!-- modal content goes here -->
-              <button id="close-button">Close</button>
+
+              <div class="modal-content">
+                <a href="index.html" id="animated-text">Home</a>
+                <a href="#" id="animated-text">About Me</a>
+                <a href="#" id="animated-text">Projects</a>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="modal-contact">
+                <a href="#" id="animated-text">Contact</a>
+              </div>
             </div>
         </div>
 
         <div class="landingPage">
             <div class="landingQuote">
                 <div class="intro">
-                    <h1 id="line1" class="line1">Hi There, Im </h1>
+                    <h1 id="line1" class="line1">Hello, Im </h1>
                     <h1 class="line2">Kobe Shaw</h1>
                     <h1 id="line3" class="line3">Frontend Developer</h1>
                 </div>
@@ -41,6 +61,11 @@
             </div>
             <img><span class="emoji">👨🏽‍🚀</span></img>
         </div>
+
+        <div class="line"></div>
+
+
+
 
     </body>
     
