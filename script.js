@@ -28,7 +28,7 @@ document.getElementById("filter").style.opacity = .02;
 document.getElementById('line1').style.color='rgb(255, 0, 255)';
 document.getElementById('line3').style.color='rgb(255, 0, 255)';
 document.getElementById('paragraph').style.color='rgb(255, 0, 255)';
-document..style.backgroundColor='red';
+document.style.backgroundColor='red';
 }
 
 
