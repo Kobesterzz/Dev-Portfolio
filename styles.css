@@ -51,7 +51,7 @@ a{
   font-family: SF pro;
 }
 
-header{
+.header1{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,6 +59,11 @@ header{
   width:100%;
   top: 0;
   background-color: #1c1c2c77;
+}
+
+.modalHeader{
+  display:flex;
+  justify-content: space-between;
 }
 
 #sun{
@@ -182,9 +187,6 @@ span.emoji{
   font-size: 50px;
 }
 
-.modalHeader{
-  display:flex;
-}
 
 #animated-text {
   transform: translateY(-20px);
