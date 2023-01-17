@@ -6,6 +6,7 @@ document.addEventListener("mousemove", (event) => {
   object2.style.top = `${event.pageY - 25}px`;
 });
 
+
 const object3 = document.getElementById("object3");
 
 document.addEventListener("mousemove", (event) => {
