@@ -62,11 +62,12 @@ a{
   display:flex;
   justify-content: space-between;
   background-color: #1c1c2c77;
+  height:60px;
 }
 
 .logo{
   color: rgb(0, 221, 255);
-  margin-left: 15px;
+  margin-left: 45px;
   font-family: Dreamscape;
 }
 
@@ -331,4 +332,163 @@ body.modal-open{
       transform: translateY(-20);
       opacity: 1;
   }
+}
+
+@media screen and (max-width:600px){
+  .emoji{
+    display: none;
+  }
+  .paragraph{
+    width:380px;
+  }
+
+
+  .AboutMeSmall{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 280px;
+  }
+
+  #ArtLab{
+    display:flex;
+    margin-left:130px;
+    margin-bottom: 80px;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:52%;
+  }
+
+  #nucamp{
+    display:flex;
+    margin-left:0px;
+    height: 375px;
+    width:78%;
+  }
+
+  .projects{
+    margin-bottom: 120px;
+  }
+
+  .contactLink{
+    font-family: Sf pro;
+    font-size: 1-0px;
+  }
+
+  .WannaTalk{
+    font-size:20px;
+    margin-bottom: -30px;
+    font-family: SF Pro;
+    color: #ffffff;
+    margin-right: 200px;
+  }
+
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 450vh;
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .paragraph{
+    width:380px;
+  }
+
+
+  .AboutMeSmall{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 280px;
+  }
+
+  #ArtLab{
+    display:flex;
+    margin-left:280px;
+    margin-bottom: 80px;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:35%;
+  }
+
+  #nucamp{
+    display:flex;
+    margin-left:180px;
+    height: 375px;
+    width:60%;
+  }
+
+  .projects{
+    margin-bottom: 280px;
+  }
+
+  .contactLink{
+    font-family: Sf pro;
+    font-size: 190px;
+  }
+
+  .WannaTalk{
+    font-size:40px;
+    margin-bottom: -30px;
+    font-family: SF Pro;
+    color: #ffffff;
+    margin-right: 270px;
+  }
+
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 450vh;
+    width:100%;
+  }
+}
+
+@media screen and (max-width:800px){
+
+
+  #ArtLab{
+    display:flex;
+    margin-left:280px;
+    margin-bottom: 80px;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:40%;
+  }
+
+  #nucamp{
+    display:flex;
+    margin-left:180px;
+    height: 375px;
+    width:65%;
+  }
+
+  .projects{
+    margin-bottom: 280px;
+  }
+
+  .contactLink{
+    font-family: Sf pro;
+    font-size: 190px;
+  }
+
+  .WannaTalk{
+    font-size:40px;
+    margin-bottom: -30px;
+    font-family: SF Pro;
+    color: #ffffff;
+    margin-right: 270px;
+  }
+
+
 }
