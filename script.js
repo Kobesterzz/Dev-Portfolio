@@ -19,10 +19,10 @@ const colorChanger = document.getElementById("colorChanger");
 function myFunction(){   
 document.body.style.backgroundColor= "rgb(216, 216, 216)";
 document.getElementById("filter").style.opacity = .02;
-document.getElementById('line1').style.color='rgb(255, 0, 255)';
-document.getElementById('line3').style.color='rgb(255, 0, 255)';
-document.getElementById('paragraph').style.color='rgb(255, 0, 255)';
-document.style.backgroundColor='red';
+document.getElementById('line1').style.color='black';
+document.getElementById('line3').style.color='black';
+document.getElementById('paragraph').style.color='black';
+
 }
 
 
