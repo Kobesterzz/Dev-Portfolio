@@ -1,0 +1,243 @@
+html{
+    height: 400vh;
+    width:100%
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 450vh;
+    margin:0px;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    font-family: SF pro;
+  }
+
+  i{
+    color: rgb(0, 229, 255);
+  }
+
+  button{
+    background: transparent;
+    border: 0px;
+  }
+  
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 450vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 450vh;
+    width:100%;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+    height:0;
+  }
+
+  .header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width:100%;
+    top: 0;
+    background-color: #1c1c2c4a;
+    z-index:900;
+  }
+  
+  .modalHeader{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1c1c2c77;
+    height:60px;
+  }
+  
+  .logo{
+    color: rgb(0, 221, 255);
+    margin-left: 45px;
+    font-family: Dreamscape;
+  }
+  
+  #sun{
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  #modal {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(50, 48, 69, 0.994);
+    overflow-y: scroll;
+    z-index: 998;
+  }
+  
+  .modal-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+    margin-bottom: 30px;
+    row-gap: 30px;
+    font-size: 50px;
+  }
+  
+  .modal-contact{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    font-size: 50px;
+  }
+  
+  
+  header.modal-open {
+    position: static;
+  }
+  
+  #modal.modal-open {
+    display: block;
+  }
+  
+  body.modal-open{
+    overflow: hidden;
+  }
+  
+  #modal.modal-animation {
+    animation: modal-in 0.5s;
+  }
+  
+  #object2 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(212, 0, 255);
+    border-radius: 50%;
+    z-index: -3;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: blur(45px);
+  }
+  
+  #object3 {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: rgb(0, 238, 255);
+    border-radius: 30%;
+    z-index: -3;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: blur(45px);
+  }
+
+  .head{
+    display:flex;
+  }
+
+  .HeadPic{
+    height:550px;
+    margin-left:20px;
+    margin-top:20px;
+    transition: zoomOut 1s ease-in-out;
+    animation: ZoomOut 1s ease-in-out;
+    
+  }
+
+  .frame {
+    height:550px;
+    margin-left:20px;
+    margin-top:20px;
+    transition: zoom .5s ease-in-out;
+    animation: zoom 1s ease-in-out ;
+    
+  }
+  
+
+  .HeadText{
+    margin-left: 50px;
+    animation: slide-in 2s ease-in-out;
+  }
+
+  .HeadTitle{
+    font-family: Dreamscape;
+    color:aqua;
+    font-size: 65px;
+    letter-spacing: 8px;
+  }
+
+  .HeadQ{
+    font-family: Sf pro;
+    color: rgba(240, 248, 255, 0.587);
+  }
+
+  .HeadA{
+    font-family: SF pro;
+    color: aliceblue;
+    margin-bottom:50px;
+  }
+
+
+  @keyframes slide-in {
+    from{
+        transform: translatex(0);
+        opacity: 0;
+    }
+    to {
+        transform: translatex(29);
+        opacity: 1;
+    }
+  }
+
+@keyframes zoom {
+  0% {
+    transform: scale(.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+
+  @keyframes modal-in {
+    from {transform: translateY(-100%);}
+    to {transform: translateY(0);}
+  }
+  
+  @keyframes modal-out {
+    from {transform: translateY(0);}
+    to {transform: translateY(-100%);}
+  }
