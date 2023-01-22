@@ -11,7 +11,7 @@ html{
 
   a{
     text-decoration: none;
-    color: rgb(0, 204, 255);
+    color: rgb(0, 247, 255);
     font-family: SF pro;
   }
 
@@ -161,19 +161,8 @@ html{
     height:550px;
     margin-left:20px;
     margin-top:20px;
-    transition: zoomOut 1s ease-in-out;
-    animation: ZoomOut 1s ease-in-out;
-    
   }
 
-  .frame {
-    height:550px;
-    margin-left:20px;
-    margin-top:20px;
-    transition: zoom .5s ease-in-out;
-    animation: zoom 1s ease-in-out ;
-    
-  }
   
 
   .HeadText{
@@ -190,7 +179,7 @@ html{
 
   .HeadQ{
     font-family: Sf pro;
-    color: rgba(240, 248, 255, 0.587);
+    color: rgba(0, 234, 255, 0.587);
   }
 
   .HeadA{
@@ -199,6 +188,30 @@ html{
     margin-bottom:50px;
   }
 
+  .Overview{
+    margin-top: 150px;
+    margin-left:40px;
+    display: flex;
+  }
+  
+  .OverviewT{
+    color: rgba(0, 229, 255, 0.613);
+    font-family: SF pro;
+  }
+
+  .OverviewP{
+    color: aliceblue;
+    font-family: SF pro;
+    width:450px;
+  }
+
+  .OverviewIMG{
+    width:900px;
+    margin-top: 20px;
+    z-index: 900;
+    transition: zoomOut 1s ease-in-out;
+    animation: ZoomOut 1s ease-in-out;
+  }
 
   @keyframes slide-in {
     from{
@@ -210,27 +223,6 @@ html{
         opacity: 1;
     }
   }
-
-@keyframes zoom {
-  0% {
-    transform: scale(.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-
-}
-
-@keyframes zoomOut {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-
-}
-
 
   @keyframes modal-in {
     from {transform: translateY(-100%);}
