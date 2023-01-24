@@ -7,23 +7,23 @@
         <title>Document</title>
         <link rel='stylesheet' href='styles.css'>
         <script src="script.js" defer></script>
-        <link 
-        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
-        rel="stylesheet"  type='text/css'>
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"   rel="stylesheet"  type='text/css'>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+        <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </head>
-    <body>
+    <body id="particle-slider">
         <div id="filter"></div>
         <img id='bg-lines' src="./img/board_black_line_texture_background_wood_55220_2560x1440.jpg">
         <div id="gradient"></div>
         <div id="object2"></div>
         <div id="object3"></div>
 
-        <div class="web-content">
-          <header class="header1">
+        <div class="Web-content">
+          <header class="header1" data-aos="slide-down" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
             <a href="index.html"><h1 class='logo'>KS</h1></a>
               <button id="hamburger-button"><i class=" fa-lg fa-2x fa fa-bars"></i></button>
               <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
-              
           </header>
 
           <div id="modal">
@@ -56,74 +56,70 @@
           <div class="landingPage">
               <div class="landingQuote">
                   <div class="intro">
-                      <h1 id="line1" class="line1">Hello, Im </h1>
-                      <h1 class="line2" id="animated-text">Kobe Shaw</h1>
-                      <h1 id="line3" class="line3">Frontend Developer</h1>
+                      <h1 id="line1" class="line1" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">Hello, Im </h1>
+                      <h1 class="line2"  data-aos="fade-up-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+                        KOBE SHAW
+                      </h1>
+                      <h1 id="line3" class="line3" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">Frontend Developer</h1>
                   </div>
               </div>
-              <img><span class="emoji">🧑🏽‍💻</span></img>
-          </div>
-
-          <div class="section">
-            <svg class="arrow">
-              <path class="a1" d="M0 0 L30 22 L60 0"></path>
-              <path class="a2" d="M0 20 L30 42 L60 20"></path>
-              <path class="a3" d="M0 40 L30 62 L60 40"></path>
-            </svg>
+              <img><span class="emoji" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">🧑🏽‍💻</span></img>
           </div>
           
-
           <div class="AboutMeSmall">
-            <h1 class="About"> About me</h1>
-            <h2 id='paragraph' class="paragraph">
+            <h1 class="About"  data-aos="flip-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false"> 
+              About me</h1>
+            <h2 id='paragraph' class="paragraph"  data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
               Hello My name is kobe shaw and <br>
               I am a software developer, and I'm always looking for new ways to <br>solve issues that arise.<br><br>
               Thank you for visiting, whatever brought you here. </h2>
           </div>
 
-        <section id="projects">
+          <section id="projects">
           <div class="projects">
             <div>
-              <h1 class="title">Projects</h1>
+              <h1 class="title" data-aos="flip-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+                Featured Projects</h1>
             </div>
-            <div class="parent-div" id="ArtLab">
+            <div class="parent-div" id="ArtLab" data-aos="fade-up-right" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
               <img src="./img/ArtLabThumb.jpg" alt="image">
               <div class="overlay">
                 <div class="overlay">
                   <a href="./ArtLab.html">
-                     <p> ArtLab</p>
+                     <p class="overlayTitle"> ArtLab <i class='	fa fa-chevron-right'  id="overlayArrow" style='font-size:38px'></i></p>
                   </a>
                 </div>
-
               </div>
             </div>
-            <div class="parent-div" id="nucamp">
+            <div class="parent-div" id="nucamp" data-aos="fade-up-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
               <img src="./img/NuCampThumb.jpg" alt="image">
               <div class="overlay">
                 <div class="overlay">
                   <a href="./NuCamp.html">
-                     <p> NuCamp</p>
+                     <p class="overlayTitle"> NuCamp <i class='fa fa-chevron-right'  id="overlayArrow" style='font-size:38px'></i></p>
                   </a>
                 </div>
 
               </div>
             </div>
           </div>
-        </section>
+          </section>
 
           <footer class="contact">
-            <div class="WannaTalk">
+            <div class="WannaTalk" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
               <h2>
                 Wanna Talk?
               </h2>
             </div>
-              <a href="contact.html" class="contactLink"id="animated-text">Contact</a>
+              <a href="contact.html" class="contactLink" data-aos="slide-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+                Contact</a>
           </footer>
 
+
         </div>
-
-
-
+        <script>
+          AOS.init();
+        </script>
     </body>
     
 </html>
