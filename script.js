@@ -1,11 +1,9 @@
-
 const object2 = document.getElementById("object2");
 
 document.addEventListener("mousemove", (event) => {
   object2.style.left = `${event.pageX - 25}px`;
   object2.style.top = `${event.pageY - 25}px`;
 });
-
 
 const object3 = document.getElementById("object3");
 
@@ -48,5 +46,7 @@ window.onload = () => {
     modal.classList.remove("modal-animation-out");
   });
 };
+
+
 
 
