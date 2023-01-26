@@ -1,6 +1,6 @@
 html{
     height: 100vh;
-    width:100%
+    width:100%;
   }
   
   body{
@@ -98,6 +98,7 @@ html{
     margin-bottom: 30px;
     row-gap: 30px;
     font-size: 50px;
+    z-index:999;
   }
   
   .modal-contact{
@@ -172,7 +173,7 @@ html{
     flex-direction: column;
     row-gap: px;
     margin-left: 430px;
-    z-index:1000;
+    z-index:899;
 }
 
 
@@ -208,7 +209,7 @@ html{
     border: none;
     font-family: SF pro;
     color: aliceblue;
-    
+    border-radius: 12px;
   }
 
 
@@ -249,6 +250,51 @@ html{
     color: aqua;
   }
   
+  footer{
+    background-color: #1c1c2c6e;
+    height:90px;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top:14px;
+  }
+  
+  .footerModal{
+    background-color: #1c1c2c6e;
+    height:90px;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top:230px;
+  }
+  
+  
+  .twitter{
+    font-size: 50px;
+    margin-right:20px;
+  }
+  
+  .github{
+    font-size: 50px;
+    margin-left:20px;
+  }
+  
+  .social{
+    margin-top:300px;
+  }
+  
+  .footer-name{
+    color:#ffffff;
+    font-family: SF pro;
+    margin-right: 400px;
+    font-size: 25px;
+  }
+  
+  .name-foot{
+    color:#00ccff;
+  }
 
 
 
