@@ -15,16 +15,26 @@ document.addEventListener("mousemove", (event) => {
 const colorChanger = document.getElementById("colorChanger");
 
 function Light(){   
-document.body.style.backgroundColor= "rgb(216, 216, 216)";
-document.getElementById("filter").style.opacity = .02;
-document.getElementById('line1').style.color='black';
-document.getElementById('line3').style.color='black';
-document.getElementById('paragraph').style.color='black';
-document.getElementById('modal').style.backgroundColor='#dfdfdf';
-document.getElementById('modal').style.color="black";
-document.getElementById('featuredNum').style.color='#00fff2';
-document.getElementById('wannaTalk').style.color='black';
-document.getElementById('footer-name').style.color='black';
+  document.body.style.backgroundColor= "rgb(216, 216, 216)";
+  document.getElementById("filter").style.opacity = .02;
+  document.getElementById('line1').style.color='black';
+  document.getElementById('line3').style.color='black';
+  document.getElementById('line2').style.color='rgb(255, 0, 242)';
+  document.getElementById('paragraph').style.color='black';
+  document.getElementById('modal').style.backgroundColor='#dfdfdf';
+  document.getElementById('modal').style.color="black";
+  document.getElementById('featuredNum1').style.color='rgb(255, 0, 242)';
+  document.getElementById('featuredNum2').style.color='rgb(255, 0, 242)';
+  document.getElementById('wannaTalk').style.color='black';
+  document.getElementById('footer-name').style.color='black';
+  document.getElementById('title1').style.color='rgb(255, 0, 242)';
+  document.getElementById('title2').style.color='rgb(255, 0, 242)';
+  document.getElementById('contact').style.color='rgb(255, 0, 242)';
+  document.getElementById('overlayTitle1').style.color='rgb(255, 0, 242)';
+  document.getElementById('overlayTitle2').style.color='rgb(255, 0, 242)';
+  document.getElementById('overlayArrow2').style.color='rgb(255, 0, 242)';
+  document.getElementById('overlayArrow1').style.color='rgb(255, 0, 242)';
+  document.getElementById('ViewMore').style.color='rgb(255, 0, 242)';
 }
 
 function Dark(){   
@@ -32,8 +42,21 @@ function Dark(){
   document.getElementById("filter").style.opacity = .55;
   document.getElementById('line1').style.color='white';
   document.getElementById('line3').style.color='white';
+  document.getElementById('line2').style.color='aqua';
   document.getElementById('paragraph').style.color='white';
   document.getElementById('modal').style.backgroundColor='rgba(50, 48, 69, 0.994)';
+  document.getElementById('wannaTalk').style.color='white';
+  document.getElementById('featuredNum1').style.color='aqua';
+  document.getElementById('featuredNum2').style.color='aqua';
+  document.getElementById('overlayArrow2').style.color='aqua';
+  document.getElementById('overlayArrow1').style.color='aqua';
+  document.getElementById('overlayTitle1').style.color='aqua';
+  document.getElementById('overlayTitle2').style.color='aqua';
+  document.getElementById('ViewMore').style.color='aqua';
+  document.getElementById('footer-name').style.color='white';
+  document.getElementById('title1').style.color='aqua';
+  document.getElementById('title2').style.color='aqua';
+  document.getElementById('contact').style.color='aqua';
   }
 
 
