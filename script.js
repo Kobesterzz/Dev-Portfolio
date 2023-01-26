@@ -14,14 +14,25 @@ document.addEventListener("mousemove", (event) => {
 
 const colorChanger = document.getElementById("colorChanger");
 
-function myFunction(){   
+function Light(){   
 document.body.style.backgroundColor= "rgb(216, 216, 216)";
 document.getElementById("filter").style.opacity = .02;
 document.getElementById('line1').style.color='black';
 document.getElementById('line3').style.color='black';
 document.getElementById('paragraph').style.color='black';
-
+document.getElementById('modal').style.backgroundColor='#dfdfdf';
+document.getElementById('modal').style.color="black";
+document.getElementById('featuredNum').style.color='#00fff2';
 }
+
+function Dark(){   
+  document.body.style.backgroundColor= "#1c1c2c";
+  document.getElementById("filter").style.opacity = .55;
+  document.getElementById('line1').style.color='white';
+  document.getElementById('line3').style.color='white';
+  document.getElementById('paragraph').style.color='white';
+  document.getElementById('modal').style.backgroundColor='rgba(50, 48, 69, 0.994)';
+  }
 
 
 window.onload = () => {

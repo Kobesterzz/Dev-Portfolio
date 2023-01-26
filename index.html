@@ -23,7 +23,10 @@
           <header class="header1" data-aos="slide-down" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" >
             <a href="index.html"><h1 class='logo'>KS</h1></a>
               <button id="hamburger-button"><i class=" fa-lg fa-2x fa fa-bars"></i></button>
-              <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+              <div class="color-changers">
+                <button id='colorChanger' onclick="Light()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+                <button id='colorChanger' onclick="Dark()"><i class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+              </div>
           </header>
 
           <div id="modal">
@@ -32,7 +35,10 @@
                   <div class="modalHeader">
                     <a href="index.html" class="logo"><h1>KS</h1></a>
                     <button id="close-button"><i class="fa fa-lg fa-3x fa-close"></i></button>
-                    <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+                    <div class="color-changers" >
+                      <button id='colorChanger' onclick="Light()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+                      <button id='colorChanger' onclick="Dark()"><i class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+                    </div>
                   </div>
                 </header>
               
@@ -101,9 +107,9 @@
                   </a>
                 </div>
             </div>
-            <h1 class="FeaturedNumRight" data-aos="fade-down-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
+            <h1 class="FeaturedNumRight" id="featuredNum" data-aos="fade-down-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
               01</h1>
-            <h1 class="FeaturedNumLeft" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
+            <h1 class="FeaturedNumLeft" id="featuredNum" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
               02</h1>
             <div class="parent-div" id="nucamp" data-aos="fade-up-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
               <img src="./img/NuCampThumb.jpg" alt="image">
