@@ -23,6 +23,8 @@ document.getElementById('paragraph').style.color='black';
 document.getElementById('modal').style.backgroundColor='#dfdfdf';
 document.getElementById('modal').style.color="black";
 document.getElementById('featuredNum').style.color='#00fff2';
+document.getElementById('wannaTalk').style.color='black';
+document.getElementById('footer-name').style.color='black';
 }
 
 function Dark(){   
