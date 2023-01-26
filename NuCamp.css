@@ -220,6 +220,51 @@ body.modal-open{
   z-index: 900;
 }
 
+footer{
+  background-color: #1c1c2c6e;
+  height:90px;
+  bottom:0;
+  display:flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.footerModal{
+  background-color: #1c1c2c6e;
+  height:90px;
+  bottom:0;
+  display:flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top:230px;
+}
+
+
+.twitter{
+  font-size: 50px;
+  margin-right:20px;
+}
+
+.github{
+  font-size: 50px;
+  margin-left:20px;
+}
+
+.social{
+  margin-top:300px;
+}
+
+.footer-name{
+  color:#ffffff;
+  font-family: SF pro;
+  margin-right: 400px;
+  font-size: 25px;
+}
+
+.name{
+  color:#00ccff;
+}
+
 
 
 @keyframes modal-in {
