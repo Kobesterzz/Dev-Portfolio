@@ -36,9 +36,10 @@ html{
   
   #bg-lines{
     opacity: .10;
-    position: absolute;
     height: 450vh;
     width:100%;
+    position: absolute;
+    z-index:-5;
   }
   
   ::-webkit-scrollbar {
@@ -217,7 +218,8 @@ html{
     bottom:0;
     display:flex;
     justify-content: center;
-    column-gap: 100px;
+    column-gap: 250px;
+    margin-top: 434px;
   }
   
   .footerModal{
@@ -227,7 +229,7 @@ html{
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:230px;
+    margin-top:258px;
   }
   
   
@@ -255,6 +257,39 @@ html{
   .name{
     color:#00ccff;
   }
+
+  .computer{
+    z-index: 890;
+    height:750px;
+    margin-left:50px;
+    margin-top:80px;
+  }
+
+  .previewVid{
+    margin-left:50px;
+    margin-top:80px;
+  }
+
+  .my-video{
+    animation-play-state: running !important;
+}
+
+.title{
+  font-family: Sf pro;
+  color: rgba(0, 234, 255, 0.587);
+  margin-left:50px;
+  margin-top:80px;
+}
+
+.paragraph{
+  margin-top: 45px;
+  font-family: SF pro;
+  font-size: 20px;
+  color: rgb(255, 237, 237);
+  font-size: 25px;
+  width:85%;
+  margin-left: 50px;
+}
 
   @keyframes slide-in {
     from{
