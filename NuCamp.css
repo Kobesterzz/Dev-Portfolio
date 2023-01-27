@@ -30,14 +30,14 @@ button{
   top: 0;
   left: 0;
   width:100%;
-  height: 450vh;
+  height: 467vh;
   z-index: -2;
 }
 
 #bg-lines{
   opacity: .10;
   position: absolute;
-  height: 450vh;
+  height: 467vh;
   width:100%;
 }
 
@@ -163,8 +163,6 @@ body.modal-open{
   margin-top:20px;
 }
 
-
-
 .HeadText{
   margin-left: 50px;
 }
@@ -211,9 +209,6 @@ body.modal-open{
   z-index: 900;
 }
 
-.OverviewIMG1:hover{
-}
-
 .OverviewIMG2{
   width:350px;
   margin-top: 25px;
@@ -227,6 +222,7 @@ footer{
   display:flex;
   justify-content: center;
   column-gap: 100px;
+  margin-top: 394px;
 }
 
 .footerModal{
@@ -236,7 +232,7 @@ footer{
   display:flex;
   justify-content: center;
   column-gap: 100px;
-  margin-top:230px;
+  margin-top:258px;
 }
 
 
@@ -265,6 +261,39 @@ footer{
   color:#00ccff;
 }
 
+
+.computer{
+  z-index: 890;
+  height:750px;
+  margin-left:50px;
+  margin-top:80px;
+}
+
+.previewVid{
+  margin-left:50px;
+  margin-top:80px;
+}
+
+.my-video{
+  animation-play-state: running !important;
+}
+
+.title{
+font-family: Sf pro;
+color: rgba(0, 234, 255, 0.587);
+margin-left:50px;
+margin-top:80px;
+}
+
+.paragraph{
+margin-top: 45px;
+font-family: SF pro;
+font-size: 20px;
+color: rgb(255, 237, 237);
+font-size: 25px;
+width:85%;
+margin-left: 50px;
+}
 
 
 @keyframes modal-in {

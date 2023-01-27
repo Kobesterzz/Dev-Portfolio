@@ -214,8 +214,9 @@ html{
 
   footer{
     background-color: #1c1c2c6e;
-    height:90px;
-    bottom:0;
+    position: absolute;
+    width: 100%;
+    height: 5 rem;  
     display:flex;
     justify-content: center;
     column-gap: 250px;
@@ -272,7 +273,7 @@ html{
 
   .my-video{
     animation-play-state: running !important;
-}
+  }
 
 .title{
   font-family: Sf pro;
@@ -311,3 +312,80 @@ html{
     from {transform: translateY(0);}
     to {transform: translateY(-100%);}
   }
+
+
+  @media screen and (max-width:1280px){
+    .HeadPic{
+      height:480px;
+      margin-left:15px;
+      margin-top:20px;
+    }
+
+    .HeadText{
+      margin-left: 40px;
+      animation: slide-in 2s ease-in-out;
+    }
+
+    .HeadTitle{
+      font-family: Dreamscape;
+      color:aqua;
+      font-size: 50px;
+      letter-spacing: 6px;
+    }
+  
+    .Overview{
+      margin-top: 150px;
+      margin-left:40px;
+      display: flex;
+    }
+    
+    .OverviewT{
+      color: rgba(0, 229, 255, 0.613);
+      font-family: SF pro;
+    }
+  
+    .OverviewP{
+      color: aliceblue;
+      font-family: SF pro;
+      width:380px;
+    }
+  
+    .OverviewIMG{
+      width:815px;
+      margin-top: 20px;
+      z-index: 900;
+
+    }
+
+    .computer{
+      z-index: 890;
+      height:670px;
+      margin-left:40px;
+      margin-top:80px;
+    }
+  
+    .previewVid{
+      margin-left:40px;
+      margin-top:80px;
+      height:670px;
+    }
+
+    #filter{
+      background: rgba(10, 10, 10, 0.55);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height: 468vh;
+      z-index: -2;
+    }
+    
+    #bg-lines{
+      opacity: .10;
+      height: 468vh;
+      width:100%;
+      position: absolute;
+      z-index:-5;
+    }
+  }
+  
