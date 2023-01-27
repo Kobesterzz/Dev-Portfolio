@@ -491,7 +491,7 @@ footer{
 
 @media screen and (max-width:1000px){
   html{
-    height: 500vh;
+    height: 490vh;
     width:100%
   }
   
@@ -507,14 +507,14 @@ footer{
     top: 0;
     left: 0;
     width:100%;
-    height: 550vh;
+    height: 605vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 650vh;
+    height: 750vh;
     width:100%;
   }
   
@@ -572,6 +572,38 @@ footer{
     height: 450vh;
     width:100%;
   }
+}
+
+@media screen and (max-width:1280px){
+  html{
+    height: 490vh;
+    width:100%
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 512vh;
+    margin:0px;
+  }
+
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 512vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 512vh;
+    width:100%;
+  }
+  
+  
 }
 
 @media screen and (max-width:800px){
