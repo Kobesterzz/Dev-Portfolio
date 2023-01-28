@@ -5,7 +5,7 @@ html{
 
 body{
   background-color: #1c1c2c;
-  height: 300vh;
+  height: 325.5vh;
   width:100%;
   margin:0px;
 }
@@ -16,14 +16,14 @@ body{
   top: 0;
   left: 0;
   width:100%;
-  height: 450vh;
+  height: 325.5vh;
   z-index: -2;
 }
 
 #bg-lines{
   opacity: .10;
   position: absolute;
-  height: 450vh;
+  height: 325.5vh;
   width:100%;
 }
 
@@ -126,14 +126,16 @@ i{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 320px;
+  margin-bottom: 200px;
 }
 
 .AboutMeBtn{
   z-index:900;
   font-size: 20px;
   font-weight: bold;
-
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .paragraph{
@@ -243,21 +245,14 @@ body.modal-open{
 
 #ArtLab{
   display:flex;
-  margin-left:240px;
-  margin-bottom: -450px;
   height: 375px;
-  position: relative;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
-  width:26%;
+  width:18%;
 }
 
 #nucamp{
   display:flex;
-  margin-left:660px;
   height: 375px;
-  width:30%;
+  width:29%;
 }
 
 .parent-div {
@@ -265,8 +260,7 @@ body.modal-open{
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
-  width:45%;
-  border:#00ccff 100px;
+ 
 
 }
 
@@ -282,23 +276,7 @@ body.modal-open{
   transform: translateX(100%);
 }
 
-.FeaturedNumRight{
-  font-family: SF Pro;
-  color: aqua;
-  font-size: 30px;
-  margin-left:570px;
-  margin-bottom:500px;
-  text-decoration: underline;
-  font-style: italic;
-}
-.FeaturedNumLeft{
-  font-family: SF Pro;
-  color: aqua;
-  font-size: 30px;
-  margin-left:620px;
-  text-decoration: underline;
-  font-style: italic;
-}
+
 
 .parent-div:hover .overlay {
   opacity: 1;
@@ -323,9 +301,11 @@ body.modal-open{
 }
 
 
-.projects{
-  margin-bottom: 220px;
-
+.Projects{
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
 
 .contact{
@@ -394,9 +374,7 @@ footer{
   color:aqua;
 }
 
-.color-changers{
-  margin-right:20px;
-}
+
 
 
 @keyframes modal-in {
@@ -447,25 +425,35 @@ footer{
 
   #ArtLab{
     display:flex;
-    margin-left:130px;
     margin-bottom: 80px;
     height: 375px;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
-    width:52%;
+    width:100%;
   }
 
   #nucamp{
     display:flex;
-    margin-left:0px;
     height: 375px;
-    width:78%;
+    width:65%;
   }
 
-  .projects{
-    margin-bottom: 120px;
+  .parent-div {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:10%;
+    border:#00ccff 100px;
+  }  
+
+  .Projects{
+      margin-bottom: 280px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
   }
 
   .contactLink{
@@ -531,27 +519,25 @@ footer{
   }
 
   #ArtLab{
-    display:flex;
-    margin-left:280px;
     margin-bottom: 80px;
     height: 375px;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
-    width:35%;
+    width:70%;
   }
 
   #nucamp{
-    display:flex;
-    margin-left:180px;
-    height: 375px;
     width:60%;
   }
 
-  .projects{
+  .Projects{
     margin-bottom: 280px;
+    display: flex;
+    flex-direction: column-reverse;
   }
+
 
   .contactLink{
     font-family: Sf pro;
@@ -566,12 +552,7 @@ footer{
     margin-right: 270px;
   }
 
-  #bg-lines{
-    opacity: .10;
-    position: absolute;
-    height: 450vh;
-    width:100%;
-  }
+  
 }
 
 @media screen and (max-width:1280px){
@@ -603,6 +584,23 @@ footer{
     width:100%;
   }
   
+  #ArtLab{
+    display:flex;
+    margin-bottom: 80px;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:30%;
+  }
+
+  #nucamp{
+    display:flex;
+    height: 375px;
+    width:50%;
+  }
+
   
 }
 
@@ -637,25 +635,26 @@ footer{
 
   #ArtLab{
     display:flex;
-    margin-left:280px;
     margin-bottom: 80px;
     height: 375px;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
-    width:40%;
+    width:60%;
   }
 
   #nucamp{
     display:flex;
-    margin-left:180px;
     height: 375px;
     width:65%;
   }
 
-  .projects{
-    margin-bottom: 280px;
+  .Projects{
+      margin-bottom: 280px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
   }
 
   .contactLink{
