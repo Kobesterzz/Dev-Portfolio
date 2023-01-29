@@ -324,7 +324,7 @@ html{
   }
 
 
-  @media screen and (max-width:1280px){
+  @media screen and (max-width:1500px){
     .HeadPic{
       height:480px;
       margin-left:15px;
@@ -357,7 +357,7 @@ html{
     .OverviewP{
       color: aliceblue;
       font-family: SF pro;
-      width:380px;
+      width:390px;
     }
   
     .OverviewIMG{
@@ -380,22 +380,29 @@ html{
       height:670px;
     }
 
+   
+  
+
     #filter{
       background: rgba(10, 10, 10, 0.55);
       position: absolute;
       top: 0;
       left: 0;
       width:100%;
-      height: 468vh;
+      height: 429vh;
       z-index: -2;
     }
     
     #bg-lines{
       opacity: .10;
-      height: 468vh;
+      height: 429vh;
       width:100%;
       position: absolute;
       z-index:-5;
+    }
+
+    .about{
+      width:90%
     }
   }
   

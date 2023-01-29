@@ -317,9 +317,9 @@ margin-left: 50px;
   to {transform: translateY(-100%);}
 }
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1500px){
   .HeadPic{
-    height:480px;
+    height:520px;
     margin-left:15px;
     margin-top:20px;
   }
@@ -350,27 +350,27 @@ margin-left: 50px;
   .OverviewP{
     color: aliceblue;
     font-family: SF pro;
-    width:380px;
+    width:390px;
   }
 
-  .OverviewIMG{
-    width:815px;
+  .preview{
+    width:701px;
     margin-top: 20px;
     z-index: 900;
 
   }
 
-  .computer{
-    z-index: 890;
-    height:670px;
-    margin-left:40px;
-    margin-top:80px;
-  }
-
   .previewVid{
     margin-left:40px;
     margin-top:80px;
-    height:670px;
+    height:650px;
+  }
+
+  .computer{
+    z-index: 890;
+    height:650px;
+    margin-left:40px;
+    margin-top:80px;
   }
 
   #filter{
@@ -379,15 +379,19 @@ margin-left: 50px;
     top: 0;
     left: 0;
     width:100%;
-    height: 500vh;
+    height: 460vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
-    height: 500vh;
+    height: 460vh;
     width:100%;
     position: absolute;
     z-index:-5;
+  }
+
+  .about{
+    width:90%
   }
 }
