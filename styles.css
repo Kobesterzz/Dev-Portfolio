@@ -555,15 +555,15 @@ footer{
   
 }
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1500px){
   html{
-    height: 490vh;
+    height: 410vh;
     width:100%
   }
   
   body{
     background-color: #1c1c2c;
-    height: 512vh;
+    height: 410vh;
     margin:0px;
   }
 
@@ -573,14 +573,14 @@ footer{
     top: 0;
     left: 0;
     width:100%;
-    height: 512vh;
+    height: 410vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 512vh;
+    height: 410vh;
     width:100%;
   }
   
@@ -592,13 +592,13 @@ footer{
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
-    width:30%;
+    width:24.5%;
   }
 
   #nucamp{
     display:flex;
     height: 375px;
-    width:50%;
+    width:30%;
   }
 
   
