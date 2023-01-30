@@ -12,6 +12,9 @@ document.addEventListener("mousemove", (event) => {
   object3.style.top = `${event.pageY - 25}px`;
 });
 
+
+
+
 const colorChanger = document.getElementById("colorChanger");
 
 function Light(){   
@@ -23,8 +26,6 @@ function Light(){
   document.getElementById('paragraph').style.color='white';
   document.getElementById('modal').style.backgroundColor='#dfdfdf';
   document.getElementById('modal').style.color="white";
-  document.getElementById('featuredNum1').style.color='rgb(255, 0, 242)';
-  document.getElementById('featuredNum2').style.color='rgb(255, 0, 242)';
   document.getElementById('wannaTalk').style.color='white';
   document.getElementById('footer-name').style.color='white';
   document.getElementById('title1').style.color='rgb(255, 0, 242)';
@@ -34,29 +35,35 @@ function Light(){
   document.getElementById('overlayTitle2').style.color='rgb(255, 0, 242)';
   document.getElementById('overlayArrow2').style.color='rgb(255, 0, 242)';
   document.getElementById('overlayArrow1').style.color='rgb(255, 0, 242)';
-  document.getElementById('ViewMore').style.color='rgb(255, 0, 242)';
+  document.getElementById('ViewMore1').style.color='rgb(255, 0, 242)';
+  document.getElementById('ViewMore2').style.color='rgb(255, 0, 242)';
+  document.getElementById('modalHom').style.color='rgb(255, 0, 242)';
+  document.getElementById('modalAbo').style.color='rgb(255, 0, 242)';
+  document.getElementById('modalPro').style.color='rgb(255, 0, 242)';
+  document.getElementById('modalCon').style.color='rgb(255, 0, 242)';
 }
 
 function Dark(){   
   document.body.style.backgroundColor= "#1c1c2c";
   document.getElementById("filter").style.opacity = .55;
-  document.getElementById('line1').style.color='white';
-  document.getElementById('line3').style.color='white';
   document.getElementById('line2').style.color='aqua';
   document.getElementById('paragraph').style.color='white';
   document.getElementById('modal').style.backgroundColor='rgba(50, 48, 69, 0.994)';
   document.getElementById('wannaTalk').style.color='white';
-  document.getElementById('featuredNum1').style.color='aqua';
-  document.getElementById('featuredNum2').style.color='aqua';
   document.getElementById('overlayArrow2').style.color='aqua';
   document.getElementById('overlayArrow1').style.color='aqua';
   document.getElementById('overlayTitle1').style.color='aqua';
   document.getElementById('overlayTitle2').style.color='aqua';
-  document.getElementById('ViewMore').style.color='aqua';
+  document.getElementById('ViewMore1').style.color='aqua';
+  document.getElementById('ViewMore2').style.color='aqua';
   document.getElementById('footer-name').style.color='white';
   document.getElementById('title1').style.color='aqua';
   document.getElementById('title2').style.color='aqua';
   document.getElementById('contact').style.color='aqua';
+  document.getElementById('modalHom').style.color='aqua';
+  document.getElementById('modalAbo').style.color='aqua';
+  document.getElementById('modalPro').style.color='aqua';
+  document.getElementById('modalCon').style.color='aqua';
   }
 
 
@@ -90,6 +97,7 @@ video.addEventListener("ended", function() {
     video.play();
 }
 , false);
+
 
 
 

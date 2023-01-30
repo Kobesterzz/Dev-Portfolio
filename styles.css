@@ -109,6 +109,7 @@ i{
   font-size: 70px;
 }
 
+
 .line3{
   margin-top: 45px;
   font-family: League Spartan;
@@ -185,7 +186,7 @@ span.emoji{
   align-items: center;
   margin-top:80px;
   margin-bottom: 30px;
-  row-gap: 30px;
+  row-gap: 90px;
   font-size: 50px;
 }
 
@@ -346,7 +347,6 @@ footer{
 .footerModal{
   background-color: #1c1c2c6e;
   height:90px;
-  bottom:0;
   display:flex;
   justify-content: center;
   column-gap: 100px;

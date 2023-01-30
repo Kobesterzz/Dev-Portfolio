@@ -226,7 +226,7 @@ html{
     display:flex;
     justify-content: center;
     column-gap: 250px;
-    margin-top: 140px;
+    margin-top: 250px;
   }
   
   .footerModal{
@@ -411,6 +411,17 @@ html{
 
     .about{
       width:90%
+    }
+
+    footer{
+      background-color: #1c1c2c6e;
+      position: absolute;
+      width: 100%;
+      height: 5 rem;  
+      display:flex;
+      justify-content: center;
+      column-gap: 250px;
+      margin-top: 140px;
     }
   }
   
