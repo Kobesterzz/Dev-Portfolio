@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel='stylesheet' href='Aboutme.css'>
+        <link rel='stylesheet' href='MoreProjects.css'>
         <script src="script.js" defer></script>
         <link  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"   rel="stylesheet"  type='text/css'>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
@@ -70,23 +70,34 @@
               </div>
           </div>
 
-          <div class="landing">
-            <h1 class="landingPageName">Kobe  Shaw</h1>
-            <a class="downRes" href="#">Download Resume</a>
-          </div>
-
-          <div class="Me-Section">
-            <div>
-              <h2 class="title">Frame works</h2>
-              <h2 class="title">UI Tools</h2>
+          <section id="projects" data-anchor="project">
+            <div class="projects">
+              <div>
+                <h1 class="featuredPro" id="title2" data-aos="flip-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+                  All Projects</h1>
+              </div>
+              <div class="Projects">
+                <div class="parent-div" id="ArtLab" data-aos="fade-up-right" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
+                  <img src="./img/ArtLabThumb.jpg" alt="image">
+                    <div class="overlay">
+                      <a href="./ArtLab.html">
+                        <p class="overlayTitle" id="overlayTitle1"> ArtLab <i class='	fa fa-chevron-right'  id="overlayArrow1" style='font-size:38px'></i></p>
+                      </a>
+                    </div>
+                </div>
+                <div class="parent-div" id="nucamp" data-aos="fade-up-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
+                  <img src="./img/NuCampThumb.jpg" alt="image">
+                    <div class="overlay">
+                      <a href="./NuCamp.html">
+                        <p class="overlayTitle" id="overlayTitle2"> NuCamp <i class='fa fa-chevron-right'  id="overlayArrow2" style='font-size:38px'></i></p>
+                      </a>
+                    </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <h2 class="title">About me 😅</h2>
-              <h2 class="paragraph">
-              Hello My name is kobe shaw and <br>
-              I am a software developer, and I'm always looking for new ways to <br>solve issues that arise. </h2>
-            </div>
-          </div>
+            </section>
+  
+   
 
           <footer>
             <h1 class="footer-name" id="footer-name">Designed by: <span class="name">Kobe Shaw</span></h1>
@@ -100,6 +111,8 @@
               </div>
             </div>
           </footer>
+
+
           
         </div>
 
