@@ -73,7 +73,7 @@
                       <h1 class="line2" id="line2" data-aos="fade-up-right" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">
                         KOBE SHAW
                       </h1>
-                      <h1 id="line3" class="line3" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false">Frontend Developer</h1>
+                      <h1 id="line3" class="line3" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="false"><span class="auto-type"></span></h1>
                   </div>
               </div>
               <img><span class="emoji" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">🧑🏽‍💻</span></img>
@@ -113,7 +113,7 @@
                   </div>
               </div>
             </div>
-            <a href="./Moreprojects.html" class="AboutMeBtn" id="ViewMore2">View More</a>
+            <a href="./Moreprojects.html" class="ProjectMore" id="ViewMore2">View More</a>
           </div>
           </section>
 
@@ -144,9 +144,16 @@
         </div>
 
        
-
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
           AOS.init();
+
+          var typed = new Typed(".auto-type",{
+            strings:["Frontend Developer", "Artist", "Athlete"],
+            typeSpeed:150,
+            backspeed:350,
+            loop:true
+          })
         </script>
     </body>
     

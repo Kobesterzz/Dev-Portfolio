@@ -183,12 +183,20 @@ body.modal-open{
   display:flex;
   height: 375px;
   width:18%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 #nucamp{
   display:flex;
   height: 375px;
   width:29%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .parent-div {

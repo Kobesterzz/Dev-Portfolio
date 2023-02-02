@@ -71,7 +71,9 @@
           </div>
 
           <div class="landing">
-            <h1 class="landingPageName" data-aos="fade-right" data-aos-duration="1000"  data-aos-offset="-10000" data-aos-easing="ease-in-out">Kobe  Shaw</h1>
+            <div>
+              <p><span class="auto-type"></span></p>
+            </div>
             <a class="downRes" href="#" data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="-10000" data-aos-easing="ease-in-out">Download Resume</a>
           </div>
 
@@ -104,9 +106,15 @@
         </div>
 
        
-
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
           AOS.init();
+
+          var typed = new Typed(".auto-type",{
+            strings:["kobe Shaw"],
+            typeSpeed:150,
+            backspeed:350,
+          })
         </script>
     </body>
     
