@@ -1,22 +1,20 @@
+/*objects*/
 const object2 = document.getElementById("object2");
-
 document.addEventListener("mousemove", (event) => {
   object2.style.left = `${event.pageX - 25}px`;
   object2.style.top = `${event.pageY - 25}px`;
 });
 
 const object3 = document.getElementById("object3");
-
 document.addEventListener("mousemove", (event) => {
   object3.style.left = `${event.pageX - 25}px`;
   object3.style.top = `${event.pageY - 25}px`;
 });
+/**/ 
 
 
-
-
+/*light and dark mode*/
 const colorChanger = document.getElementById("colorChanger");
-
 function Light(){   
   document.body.style.backgroundColor= "rgb(216, 216, 216)";
   document.getElementById("filter").style.opacity = .02;
@@ -42,7 +40,6 @@ function Light(){
   document.getElementById('modalPro').style.color='rgb(255, 0, 242)';
   document.getElementById('modalCon').style.color='rgb(255, 0, 242)';
 }
-
 function Dark(){   
   document.body.style.backgroundColor= "#1c1c2c";
   document.getElementById("filter").style.opacity = .55;
@@ -65,8 +62,9 @@ function Dark(){
   document.getElementById('modalPro').style.color='aqua';
   document.getElementById('modalCon').style.color='aqua';
   }
+/**/ 
 
-
+/*modal*/
 window.onload = () => {
   // Your JavaScript code here
   const hamburgerButton = document.getElementById("hamburger-button");
@@ -89,7 +87,9 @@ window.onload = () => {
     modal.classList.remove("modal-animation-out");
   });
 };
+/**/
 
+/*project videos*/
 var video = document.getElementById("myVideo");
 
 video.addEventListener("ended", function() {
@@ -97,6 +97,7 @@ video.addEventListener("ended", function() {
     video.play();
 }
 , false);
+/**/
 
 
 
