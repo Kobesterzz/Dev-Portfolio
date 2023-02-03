@@ -111,7 +111,7 @@ i{
 
 
 .line3{
-  margin-top: 45px;
+  margin-top: 55px;
   font-family: League Spartan;
   color: #ffffff;
 }
@@ -310,6 +310,8 @@ body.modal-open{
   display: flex;
   justify-content: center;
   column-gap: 50px;
+  background-color: #004a5d7e;
+  
 }
 
 .parent-div:hover .overlay {
