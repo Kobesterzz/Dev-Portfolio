@@ -306,7 +306,7 @@ body.modal-open{
 }
 
 .logos{
-  margin-left:20px;
+  margin-left:0px;
   display: flex;
   justify-content: center;
   column-gap: 50px;
