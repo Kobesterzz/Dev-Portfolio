@@ -290,10 +290,10 @@ body.modal-open{
   right: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 83, 86, 0.652);
+  background-color: rgba(57, 64, 64, 0.811);
   opacity: 0;
   transition: transform 4s ease-in-out;
-  transform: translateX(100%);
+  transform: translatey(100%);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -310,7 +310,7 @@ body.modal-open{
   display: flex;
   justify-content: center;
   column-gap: 50px;
-  background-color: #004a5d7e;
+  background-color: #2326277e;
   
 }
 
@@ -320,6 +320,8 @@ body.modal-open{
   transform: translatey(0);
   transition:  transform 1s ease-in-out;
 }
+
+
 
 .overlayTitle{
   font-family: SF pro;
@@ -405,8 +407,8 @@ footer{
 
 
 @keyframes modal-in {
-  from {transform: translateX(-100%);}
-  to {transform: translateX(0);}
+  from {transform: translateY(-100%);}
+  to {transform: translateY(0);}
 }
 
 @keyframes modal-out {
