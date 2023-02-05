@@ -76,7 +76,6 @@ function Light(){
     document.getElementById('modalAbo').style.color='black';
     document.getElementById('modalPro').style.color='black';
     document.getElementById('modalCon').style.color='black';
-    document.getElementsById('title').style.color='black';
   }
 }
 

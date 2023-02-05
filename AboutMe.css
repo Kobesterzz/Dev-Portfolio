@@ -1,11 +1,11 @@
 html{
-    height: 300vh;
+    height: 214vh;
     width:100%;
   }
   
   body{
     background-color: #1c1c2c;
-    height: 325.5vh;
+    height: 214vh;
     width:100%;
     margin:0px;
   }
@@ -16,14 +16,14 @@ html{
     top: 0;
     left: 0;
     width:100%;
-    height: 325.5vh;
+    height: 214vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 325.5vh;
+    height: 214vh;
     width:100%;
   }
   
@@ -154,10 +154,21 @@ html{
     font-family: SF pro;
     font-size: 20px;
     color: rgb(255, 237, 237);
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 80px;
+    width:900px;
   }
   
+  .aboutAns{
+    margin-top: 45px;
+    font-family: SF pro;
+    font-size: 20px;
+    color: rgb(255, 237, 237);
+    font-size: 20px;
+    margin-bottom: 80px;
+
+  }
+
   span.emoji{
     font-size: 120px;
     margin-right: 125px;
