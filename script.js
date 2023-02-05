@@ -14,33 +14,17 @@ document.addEventListener("mousemove", (event) => {
 
 
 /*light and dark mode*/
+
+
+
 const colorChanger = document.getElementById("colorChanger");
-function Light(){   
-  document.body.style.backgroundColor= "rgb(216, 216, 216)";
-  document.getElementById("filter").style.opacity = .02;
-  document.getElementById('line1').style.color='white';
-  document.getElementById('line3').style.color='white';
-  document.getElementById('line2').style.color='rgb(255, 0, 242)';
-  document.getElementById('paragraph').style.color='white';
-  document.getElementById('modal').style.backgroundColor='#dfdfdf';
-  document.getElementById('modal').style.color="white";
-  document.getElementById('wannaTalk').style.color='white';
-  document.getElementById('footer-name').style.color='white';
-  document.getElementById('title1').style.color='rgb(255, 0, 242)';
-  document.getElementById('title2').style.color='rgb(255, 0, 242)';
-  document.getElementById('contact').style.color='rgb(255, 0, 242)';
-  document.getElementById('overlayTitle1').style.color='rgb(255, 0, 242)';
-  document.getElementById('overlayTitle2').style.color='rgb(255, 0, 242)';
-  document.getElementById('overlayArrow2').style.color='rgb(255, 0, 242)';
-  document.getElementById('overlayArrow1').style.color='rgb(255, 0, 242)';
-  document.getElementById('ViewMore1').style.color='rgb(255, 0, 242)';
-  document.getElementById('ViewMore2').style.color='rgb(255, 0, 242)';
-  document.getElementById('modalHom').style.color='rgb(255, 0, 242)';
-  document.getElementById('modalAbo').style.color='rgb(255, 0, 242)';
-  document.getElementById('modalPro').style.color='rgb(255, 0, 242)';
-  document.getElementById('modalCon').style.color='rgb(255, 0, 242)';
-}
-function Dark(){   
+
+
+function Dark(){
+  localStorage.setItem('activeButton', 'Dark');
+  localStorage.setItem('Light', 'false');
+  localStorage.setItem('Dark', 'true');
+  if(localStorage.getItem('Dark') === 'true'){
   document.body.style.backgroundColor= "#1c1c2c";
   document.getElementById("filter").style.opacity = .55;
   document.getElementById('line2').style.color='aqua';
@@ -62,6 +46,49 @@ function Dark(){
   document.getElementById('modalPro').style.color='aqua';
   document.getElementById('modalCon').style.color='aqua';
   }
+}
+
+function Light(){
+  localStorage.setItem('activeButton', 'Light');
+  localStorage.setItem('Light', 'true');
+  localStorage.setItem('Dark', 'false');
+  if(localStorage.getItem('Light') === 'true'){
+    document.body.style.backgroundColor= "rgb(216, 216, 216)";
+    document.getElementById("filter").style.opacity = .02;
+    document.getElementById('line1').style.color='white';
+    document.getElementById('line3').style.color='white';
+    document.getElementById('line2').style.color='black';
+    document.getElementById('paragraph').style.color='white';
+    document.getElementById('modal').style.backgroundColor='#dfdfdf';
+    document.getElementById('modal').style.color="white";
+    document.getElementById('wannaTalk').style.color='white';
+    document.getElementById('footer-name').style.color='white';
+    document.getElementById('title1').style.color='black';
+    document.getElementById('title2').style.color='black';
+    document.getElementById('contact').style.color='black';
+    document.getElementById('overlayTitle1').style.color='aqua';
+    document.getElementById('overlayTitle2').style.color='aqua';
+    document.getElementById('overlayArrow2').style.color='aqua';
+    document.getElementById('overlayArrow1').style.color='aqua';
+    document.getElementById('ViewMore1').style.color='black';
+    document.getElementById('ViewMore2').style.color='black';
+    document.getElementById('modalHom').style.color='black';
+    document.getElementById('modalAbo').style.color='black';
+    document.getElementById('modalPro').style.color='black';
+    document.getElementById('modalCon').style.color='black';
+    document.getElementsById('title').style.color='black';
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  const activeButton = localStorage.getItem('activeButton');
+  if (activeButton === 'Dark') {
+    Dark();
+  } else if (activeButton === 'Light') {
+    Light();
+  }
+});
+  
 /**/ 
 
 /*modal*/

@@ -21,8 +21,10 @@
     <header class="header1">
       <a href="index.html"><h1 class='logo'>KS</h1></a>
         <button id="hamburger-button"><i class=" fa-lg fa-2x fa fa-bars"></i></button>
-        <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
-        
+        <div class="color-changers">
+          <button id='colorChanger' onclick="Light()"><i  class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+          <button id='colorChanger' onclick="Dark()" aria-checked="true"><i   class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+        </div>
     </header>
 
     <div id="modal">
