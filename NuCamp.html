@@ -28,29 +28,28 @@
     </header>
 
     <div id="modal">
+      <img id='bg-lines-modal' src="./img/board_black_line_texture_background_wood_55220_2560x1440.jpg">
         <div id="modal-content">
           <header>
             <div class="modalHeader">
               <a href="index.html" class="logo"><h1>KS</h1></a>
               <button id="close-button"><i class="fa fa-lg fa-3x fa-close"></i></button>
-              <button id='colorChanger' onclick="myFunction()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+              <div class="color-changers" >
+                <button id='colorChanger' onclick="Light()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+                <button id='colorChanger' onclick="Dark()"><i class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+              </div>
             </div>
           </header>
         
           <!-- modal content goes here -->
 
           <div class="modal-content">
-            <a href="index.html" id="animated-text">Home</a>
-            <a href="AboutMe.html" id="animated-text">About Me</a>
-            <a href="#projects" id="animated-text">Projects</a>
+            <a href="index.html" id="modalHom">Home</a>
+            <a href="AboutMe.html" id="modalAbo">About Me</a>
+            <a href="./Moreprojects.html"  id="modalPro">Projects</a>
+            <a href="mailto:kobeshaw330@gmail.com?subject=Subject%20Line%20Goes%20Here" id="modalCon">Contact</a>
           </div>
 
-          <div class="line"></div>
-
-          
-          <div class="modal-contact">
-            <a href="contact.html" id="animated-text">Contact</a>
-          </div>
           <footer class="footerModal">
             <h1 class="footer-name">Designed by: <span class="name">Kobe Shaw</span></h1>
             <div class="footer-content">
