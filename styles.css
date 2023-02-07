@@ -184,6 +184,14 @@ span.emoji{
   z-index: 998;
 }
 
+#bg-lines-modal{
+  opacity: .10;
+  position: absolute;
+  height: 100vh;
+  width:100%;
+  z-index: -100;
+}
+
 .modal-content{
   display:flex;
   justify-content: center;
@@ -193,16 +201,10 @@ span.emoji{
   margin-bottom: 30px;
   row-gap: 90px;
   font-size: 50px;
+  z-index: 2000;
 }
 
-.modal-contact{
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top:30px;
-  font-size: 50px;
-}
+
 
 #animated-text {
   transform: translateY(-20px);
@@ -310,7 +312,6 @@ body.modal-open{
   display: flex;
   justify-content: center;
   column-gap: 50px;
-  background-color: #2326277e;
   
 }
 
@@ -320,8 +321,6 @@ body.modal-open{
   transform: translatey(0);
   transition:  transform 1s ease-in-out;
 }
-
-
 
 .overlayTitle{
   font-family: SF pro;
