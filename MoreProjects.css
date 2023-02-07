@@ -124,7 +124,7 @@ i{
   align-items: center;
   margin-top:80px;
   margin-bottom: 30px;
-  row-gap: 90px;
+  row-gap: 30px;
   font-size: 50px;
 }
 
@@ -222,10 +222,10 @@ body.modal-open{
   right: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 83, 86, 0.652);
+  background-color: rgba(57, 64, 64, 0.811);
   opacity: 0;
   transition: transform 4s ease-in-out;
-  transform: translateX(100%);
+  transform: translatey(100%);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -293,7 +293,7 @@ footer{
   display:flex;
   justify-content: center;
   column-gap: 100px;
-  margin-top:230px;
+  margin-top:410px;
 }
 
 
@@ -320,4 +320,51 @@ footer{
 
 .name{
   color:aqua;
+}
+
+@media screen and (max-width:1500px){
+
+  
+  #ArtLab{
+    display:flex;
+    margin-bottom: 80px;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:24.5%;
+  }
+
+  #nucamp{
+    display:flex;
+    height: 375px;
+    width:39%;
+  }
+
+  footer{
+    background-color: #1c1c2c6e;
+    height:90px;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top:0px;
+  }
+
+  .Projects{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+  }
+  
+  .footerModal{
+    background-color: #1c1c2c6e;
+    height:90px;
+    display:flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top:230px;
+  }
 }

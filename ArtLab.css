@@ -244,7 +244,7 @@ html{
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:258px;
+    margin-top:410px;
   }
   
   
@@ -430,6 +430,16 @@ html{
       justify-content: center;
       column-gap: 250px;
       margin-top: 140px;
+    }
+
+    .footerModal{
+      background-color: #1c1c2c6e;
+      height:90px;
+      bottom:0;
+      display:flex;
+      justify-content: center;
+      column-gap: 100px;
+      margin-top:258px;
     }
   }
   
