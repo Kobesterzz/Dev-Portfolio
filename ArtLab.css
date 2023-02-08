@@ -41,7 +41,7 @@ html{
   }
   
   #bg-lines{
-    opacity: .10;
+    opacity: .30;
     height: 369vh;
     width:100%;
     position: absolute;
@@ -389,13 +389,13 @@ html{
     }
 
     html{
-      height: 415vh;
+      height: 465vh;
       width:100%
     }
     
     body{
       background-color: #1c1c2c;
-      height: 415vh;
+      height: 465vh;
       margin:0px;
     }
 
@@ -405,13 +405,13 @@ html{
       top: 0;
       left: 0;
       width:100%;
-      height: 415vh;
+      height: 465vh;
       z-index: -2;
     }
     
     #bg-lines{
       opacity: .10;
-      height: 415vh;
+      height: 465vh;
       width:100%;
       position: absolute;
       z-index:-5;
