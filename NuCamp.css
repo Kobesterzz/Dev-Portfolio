@@ -413,6 +413,18 @@ margin-left: 50px;
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:258px;
+    margin-top:200px;
+  }
+
+  .modal-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:60px;
+    margin-bottom: 10px;
+    row-gap: 15px;
+    font-size: 50px;
+    z-index: 2000;
   }
 }

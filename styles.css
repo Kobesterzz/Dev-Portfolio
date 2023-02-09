@@ -614,13 +614,13 @@ footer{
 
 @media screen and (max-width:1500px){
   html{
-    height: 404vh;
+    height: 470vh;
     width:100%
   }
   
   body{
     background-color: #1c1c2c;
-    height: 404vh;
+    height: 470vh;
     margin:0px;
   }
 
@@ -630,14 +630,14 @@ footer{
     top: 0;
     left: 0;
     width:100%;
-    height: 405vh;
+    height: 470vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 405vh;
+    height: 470vh;
     width:100%;
   }
   
@@ -667,6 +667,17 @@ footer{
     margin-top:89px;
   }
 
+  .modal-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+    margin-bottom: 30px;
+    row-gap: 45px;
+    font-size: 50px;
+    z-index: 2000;
+  }
   
 }
 

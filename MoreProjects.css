@@ -324,10 +324,38 @@ footer{
 
 @media screen and (max-width:1500px){
 
+  html{
+    height: 145vh;
+    width:100%;
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 145vh;
+    width:100%;
+    margin:0px;
+  }
+  
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 145vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 145vh;
+    width:100%;
+  }
   
   #ArtLab{
     display:flex;
-    margin-bottom: 80px;
+    
     height: 375px;
     position: relative;
     overflow: hidden;
@@ -349,11 +377,10 @@ footer{
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:0px;
+    
   }
 
   .Projects{
-    margin-bottom: 0px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
@@ -365,6 +392,6 @@ footer{
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:230px;
+    margin-top:160px;
   }
 }
