@@ -7,7 +7,6 @@ body{
   background-color: #1c1c2c;
   height: 214vh;
   width:100%;
-  margin:0px;
 }
 
 #filter{
@@ -421,6 +420,8 @@ footer{
   color:#ffffff;
   display: flex;
   justify-content: center;
+  z-index:2999;
+  position:relative;
 }
 
 .landing{

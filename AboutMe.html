@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel='stylesheet' href='Aboutme.css'>
-        <script src="script.js" defer></script>
+        <title>AboutMe</title>
+        <link rel='stylesheet' href='./AboutMe.css'>
+        
         <link  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"   rel="stylesheet"  type='text/css'>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
         <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
@@ -22,7 +22,7 @@
         <div class="Web-content">
           <header class="header1" data-aos="slide-down" data-aos-duration="1000"  data-aos-offset="-10000" data-aos-easing="ease-in-out" >
             <a href="index.html"><h1 class='logo' id="logo">KS</h1></a>
-              <button "><i id="hamburger-button" class=" fa-lg fa-2x fa fa-bars"></i></button>
+              <button ><i id="hamburger-button" class=" fa-lg fa-2x fa fa-bars"></i></button>
               <div class="color-changers">
                 <button id='colorChanger' onclick="Light()"><i  class="fa fa-lg fa-2x fa-sun-o" ></i></button>
                 <button id='colorChanger' onclick="Dark()" ><i   class="fa fa-lg fa-2x fa-moon-o" ></i></button>
@@ -71,11 +71,11 @@
             <div>
               <p id='title'><span class="auto-type"></span></p>
             </div>
-            <a class="downRes" href="#" data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="-10000" data-aos-easing="ease-in-out">Download Resume</a>
+            <a class="downRes" href="KobeShaw'sResume.pdf" data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="-10000" data-aos-easing="ease-in-out" download>Download Resume</a>
           </div>
 
           <div class="Me-Section">
-            <div>
+            <div class="skills">
               <h2 class="title" id="title">Front end Tools</h2>
               <h2 class="aboutAns">JavaScript, Html5, React.js, React Native, Git/Github, Node.js</h2>
               <h2 id='title' class="title">UI Tools</h2>
@@ -134,6 +134,7 @@
             backspeed:350,
           })
         </script>
+        <script src="script.js" defer></script>
     </body>
     
 </html>
