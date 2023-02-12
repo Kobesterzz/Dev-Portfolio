@@ -420,7 +420,7 @@ footer{
   color:#ffffff;
   display: flex;
   justify-content: center;
-  z-index:2999;
+  z-index:999;
   position:relative;
 }
 
