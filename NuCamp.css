@@ -428,3 +428,127 @@ margin-left: 50px;
     z-index: 2000;
   }
 }
+
+@media screen and (max-width:480px){
+  
+  html{
+    height: 448vh;
+    width:100%;
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 448vh;
+    width:100%;
+    margin:0px;
+  }
+  
+  
+  
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 448vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 448vh;
+    width:100%;
+  }
+
+.landingPage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 105px;
+  margin-bottom: 200px;
+}
+
+.landingQuote{
+  margin-left: 50px;
+}
+
+.Projects{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  column-gap: 30px;
+}
+
+#ArtLab{
+  display:flex;
+  height: 375px;
+  width:68.5%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#nucamp{
+  display:flex;
+  height: 375px;
+  width:70%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.contact{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WannaTalk{
+  font-size:20px;
+  margin-bottom: -40px;
+  font-family: SF Pro;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.contactLink{
+  font-family: Sf pro;
+  font-size: 120px;
+  margin-bottom: 100px;
+}
+
+.footer-name{
+  color:#ffffff;
+  font-family: SF pro;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.twitter{
+  font-size: 40px;
+}
+
+.github{
+  font-size: 40px;
+}
+
+.socials{
+  margin-top:20px;
+  display:flex;
+}
+
+.footerModal{
+  background-color: #1c1c2c6e;
+  height:90px;
+  display:flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top:190px;
+}
+}
+
