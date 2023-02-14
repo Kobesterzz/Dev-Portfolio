@@ -412,13 +412,19 @@ footer{
   font-size: 30px;
 }
 
+.titleAbout{
+  color: rgba(0, 255, 255, 0.565);
+  font-family: SF pro;
+  font-size: 30px;
+}
+
 .downRes{
   font-size: 40px;
   font-family: SF pro;
   color:#ffffff;
   display: flex;
   justify-content: center;
-  z-index:999;
+  z-index:989;
   position:relative;
 }
 
@@ -515,4 +521,99 @@ footer{
   .skills{
     margin-left:10px;
   }
+}
+
+@media screen and (max-width:480px){
+  
+  html{
+    height: 393vh;
+    width:100%;
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 393vh;
+    width:100%;
+    margin:0px;
+  }
+  
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 393vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 393vh;
+    width:100%;
+  }
+
+  .auto-type{
+    font-family: Dreamscape;
+    font-size: 110px;
+    color: aqua;
+    margin-bottom: 60px;
+    margin-top:100px;
+    margin-left:60px;
+    display: flex;
+    justify-content: center;
+  }
+
+.landing{
+  margin-bottom: 160px;
+}
+
+
+.footer-name{
+  color:#ffffff;
+  font-family: SF pro;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.twitter{
+  font-size: 40px;
+}
+
+.github{
+  font-size: 40px;
+}
+
+.socials{
+  margin-top:20px;
+  display:flex;
+}
+
+.footerModal{
+  background-color: #1c1c2c6e;
+  height:90px;
+  display:flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top:200px;
+}
+
+.Me-Section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: 280px;
+}
+
+.paragraph{
+  font-family: SF pro;
+  color: #ffffff;
+  width:400px;
+  margin-left:20px;
+}
+
+.titleAbout{
+  margin-left:20px;
+}
 }
