@@ -389,13 +389,13 @@ html{
     }
 
     html{
-      height: 465vh;
+      height: 407vh;
       width:100%
     }
     
     body{
       background-color: #1c1c2c;
-      height: 465vh;
+      height: 407vh;
       margin:0px;
     }
 
@@ -405,13 +405,13 @@ html{
       top: 0;
       left: 0;
       width:100%;
-      height: 465vh;
+      height: 407vh;
       z-index: -2;
     }
     
     #bg-lines{
       opacity: .10;
-      height: 465vh;
+      height: 407vh;
       width:100%;
       position: absolute;
       z-index:-5;
@@ -446,13 +446,13 @@ html{
   @media screen and (max-width:480px){
   
     html{
-      height: 448vh;
+      height: 424vh;
       width:100%;
     }
     
     body{
       background-color: #1c1c2c;
-      height: 448vh;
+      height: 424vh;
       width:100%;
       margin:0px;
     }
@@ -465,76 +465,16 @@ html{
       top: 0;
       left: 0;
       width:100%;
-      height: 448vh;
+      height: 424vh;
       z-index: -2;
     }
     
     #bg-lines{
       opacity: .10;
       position: absolute;
-      height: 448vh;
+      height: 424vh;
       width:100%;
     }
-  
-  .landingPage{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 105px;
-    margin-bottom: 200px;
-  }
-  
-  .landingQuote{
-    margin-left: 50px;
-  }
-  
-  .Projects{
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    column-gap: 30px;
-  }
-  
-  #ArtLab{
-    display:flex;
-    height: 375px;
-    width:68.5%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
-  
-  #nucamp{
-    display:flex;
-    height: 375px;
-    width:70%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
-  
-  .contact{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .WannaTalk{
-    font-size:20px;
-    margin-bottom: -40px;
-    font-family: SF Pro;
-    color: #ffffff;
-    margin-right: 30px;
-  }
-  
-  .contactLink{
-    font-family: Sf pro;
-    font-size: 120px;
-    margin-bottom: 100px;
-  }
   
   .footer-name{
     color:#ffffff;
@@ -563,6 +503,52 @@ html{
     justify-content: center;
     column-gap: 100px;
     margin-top:190px;
+  }
+
+  .previewVid{
+    margin-left:0px;
+    margin-top:0px;
+    width:400px;
+  }
+
+  .computer{
+    z-index: 890;
+    width:400px;
+    height:auto;
+    margin-left:10px;
+    margin-top:80px;
+  }
+
+  .Overview {
+    margin-top: 150px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .OverviewIMG{
+    width:400px;
+    z-index: 900;
+    transition: zoomOut 1s ease-in-out;
+    animation: ZoomOut 1s ease-in-out;
+  }
+
+  .head{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+  .HeadPic{
+    height:240px;
+    margin-top:20px;
+  }
+
+  .title{
+    font-family: Sf pro;
+    color: rgba(0, 234, 255, 0.587);
+    margin-left:50px;
+    margin-top:0px;
   }
   }
   

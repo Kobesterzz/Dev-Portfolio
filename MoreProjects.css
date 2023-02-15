@@ -399,13 +399,13 @@ footer{
 @media screen and (max-width:480px){
   
   html{
-    height: 448vh;
+    height: 167vh;
     width:100%;
   }
   
   body{
     background-color: #1c1c2c;
-    height: 448vh;
+    height: 167vh;
     width:100%;
     margin:0px;
   }
@@ -418,14 +418,14 @@ footer{
     top: 0;
     left: 0;
     width:100%;
-    height: 448vh;
+    height: 167vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 448vh;
+    height: 167vh;
     width:100%;
   }
 
@@ -443,16 +443,17 @@ footer{
 
 .Projects{
   margin-bottom: 100px;
+  margin-left:100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  column-gap: 30px;
+  row-gap: 30px;
 }
 
 #ArtLab{
   display:flex;
   height: 375px;
-  width:68.5%;
+  width:74%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -462,11 +463,18 @@ footer{
 #nucamp{
   display:flex;
   height: 375px;
-  width:70%;
+  width:74%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+}
+
+.logos{
+  margin-left:20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
 
 .contact{
