@@ -226,16 +226,15 @@ html{
     animation: ZoomOut 1s ease-in-out;
   }
 
-  footer{
-    background-color: #1c1c2c6e;
-    position: absolute;
-    width: 100%;
-    height: 5 rem;  
-    display:flex;
-    justify-content: center;
-    column-gap: 250px;
-    margin-top: 250px;
-  }
+  
+footer{
+  background-color: #1c1c2c6e;
+  height:90px;
+  display:flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top: 200px;
+}
   
   .footerModal{
     background-color: #1c1c2c6e;
@@ -389,13 +388,13 @@ html{
     }
 
     html{
-      height: 407vh;
+      height: 380vh;
       width:100%
     }
     
     body{
       background-color: #1c1c2c;
-      height: 407vh;
+      height: 380vh;
       margin:0px;
     }
 
@@ -405,13 +404,13 @@ html{
       top: 0;
       left: 0;
       width:100%;
-      height: 407vh;
+      height: 380vh;
       z-index: -2;
     }
     
     #bg-lines{
       opacity: .10;
-      height: 407vh;
+      height: 380vh;
       width:100%;
       position: absolute;
       z-index:-5;
@@ -428,8 +427,8 @@ html{
       height: 5 rem;  
       display:flex;
       justify-content: center;
-      column-gap: 250px;
-      margin-top: 140px;
+      column-gap: 200px;
+      margin-top: 100px;
     }
 
     .footerModal{
@@ -476,25 +475,25 @@ html{
       width:100%;
     }
   
-  .footer-name{
-    color:#ffffff;
-    font-family: SF pro;
-    margin-right: 10px;
-    font-size: 25px;
-  }
-  
-  .twitter{
-    font-size: 40px;
-  }
-  
-  .github{
-    font-size: 40px;
-  }
-  
-  .socials{
-    margin-top:20px;
-    display:flex;
-  }
+    .footer-name{
+      color:#ffffff;
+      font-family: SF pro;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    
+    .twitter{
+      font-size: 40px;
+    }
+    
+    .github{
+      font-size: 40px;
+    }
+    
+    .socials{
+      margin-top:20px;
+      display:flex;
+    }
   
   .footerModal{
     background-color: #1c1c2c6e;
