@@ -139,6 +139,7 @@ i{
 }
 
 .ProjectMore{
+  display: none;
   z-index:990;
   font-size: 20px;
   font-weight: bold;
@@ -244,7 +245,7 @@ body.modal-open{
   animation: modal-in 0.5s;
 }
 
-#object2 {
+#object2{
   position: absolute;
   width: 300px;
   height: 400px;
@@ -418,6 +419,10 @@ footer{
   font-size: 30px;
 }
 
+#certificates{
+  z-index: 900;
+}
+
 .downRes{
   font-size: 40px;
   font-family: SF pro;
@@ -522,6 +527,8 @@ footer{
     margin-left:10px;
   }
 }
+
+
 
 @media screen and (max-width:480px){
   
