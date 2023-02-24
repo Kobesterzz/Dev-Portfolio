@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="512x512" href="./img/KS.png">
+    <title>ArtLab</title>
+    <link rel="stylesheet" href="./TaskCalendar.css">
+    <script src="script.js" defer></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+  <div id="filter"></div>
+  <img id='bg-lines' src="./img/board_black_line_texture_background_wood_55220_2560x1440.jpg">
+  <div id="gradient"></div>
+  <div id="object2"></div>
+  <div id="object3"></div>
+
+    <header class="header1">
+        <a href="index.html"><h1 class='logo'>KS</h1></a>
+        <button id="hamburger-button"><i class=" fa-lg fa-2x fa fa-bars"></i></button>
+        <div class="color-changers">
+          <button id='colorChanger' onclick="Light()"><i  class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+          <button id='colorChanger' onclick="Dark()" aria-checked="true"><i   class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+        </div>
+    </header>
+
+    <div id="modal">
+      <img id='bg-lines-modal' src="./img/board_black_line_texture_background_wood_55220_2560x1440.jpg">
+        <div id="modal-content">
+          <header>
+            <div class="modalHeader">
+              <a href="index.html" class="logo"><h1>KS</h1></a>
+              <button id="close-button"><i class="fa fa-lg fa-3x fa-close"></i></button>
+              <div class="color-changers" >
+                <button id='colorChanger' onclick="Light()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+                <button id='colorChanger' onclick="Dark()"><i class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+              </div>
+            </div>
+          </header>
+        
+          <!-- modal content goes here -->
+
+          <div class="modal-content">
+            <a href="index.html" id="modalHom">Home</a>
+            <a href="AboutMe.html" id="modalAbo">About Me</a>
+            <a href="./Moreprojects.html"  id="modalPro">Projects</a>
+            <a href="mailto:kobeshaw330@gmail.com?subject=Subject%20Line%20Goes%20Here" id="modalCon">Contact</a>
+          </div>
+
+          <footer class="footerModal">
+            <h1 class="footer-name">Designed by: <span class="name">Kobe Shaw</span></h1>
+            <div class="footer-content">
+
+              <div class="socials">
+                <a href="https://twitter.com/KobeShaw_code" class="twitter"><i class="fa fa-twitter"></i></a>
+            
+              
+                <a href="https://github.com/Kobesterzz" class="github"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </footer>
+        </div>
+    </div>
+
+    <div class="pageContent">
+      <div class="head">
+        <img src="./img/TaskCalender-Header.jpg" class="HeadPic" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+        <div class="HeadText">
+          <h1 class="HeadTitle" id="LightModeText" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false" >Task Calendar</h1>
+          <h3 id="LightModeText" class="HeadQ">completed</h3>
+          <h2 class="HeadA">2023</h2>
+          <h3 id="LightModeText" class="HeadQ">Type</h3>
+          <h2 class="HeadA">Website Development</h2>
+          <h3 class="HeadQ">GitHub Rep </h3>
+          <div>
+            <a href="https://github.com/Kobesterzz/ToDo-List" class="HeadA"><i class="fa fa-github" style='font-size:50px'></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="Overview">
+        <div>
+          <h1 class="OverviewT" id="LightModeText" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            Overview</h1>
+          <h2 class="OverviewP" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            This is a website that i wanted to make for my personal use. I wanted to find something that was Minimalistic and can still do everything that i need.</h2>
+            <h1 class="OverviewT" id="LightModeText" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+              Languages /Framworks </h1>
+            <h2 class="OverviewP" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            Html / CSS / JS 
+              </h2>
+        </div>
+          <img src="./img/taskCalender home photo.jpg" class="OverviewIMG" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+      </div>
+
+      <div class="preveiw">
+        <img src="./img/3d-TaskCalendar img.png" class="computer" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+      </div>
+
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+        <video id="myVideo" class='previewVid' width="auto" height="700px" autoplay >
+          <source src="./img/TaskCalander-animation.mp4" type="video/mp4" >
+        </video>
+      </div>
+
+      <div class="about">
+        <h1 class="title" id="LightModeText" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+          About</h1>
+        <h2 class="paragraph" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+          This started as a personal practice project. But shortly after starting I realized this could be something I use on a daily basis. And that is exactly what it has become. If you are and artist and you have hit artist block and you dont remember exactly how to 
+
+          draw a specific part of the body then you can come straight to this website to jump start your thought process again.
+
+          <br>
+          <br>
+
+          You can find the code for this code on my Git Hub :)
+        </h2>
+      </div>
+    </div>
+
+    <footer>
+        <h1 class="footer-name">Designed by: <span class="name">Kobe Shaw</span></h1>
+        <div class="footer-content">
+
+          <div class="socials">
+            <a href="https://twitter.com/KobeShaw_code" class="twitter"><i class="fa fa-twitter"></i></a>
+        
+          
+            <a href="https://github.com/Kobesterzz" class="github"><i class="fa fa-github"></i></a>
+          </div>
+        </div>
+    </footer>
+    
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

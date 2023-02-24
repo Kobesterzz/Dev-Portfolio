@@ -1,0 +1,553 @@
+html{
+    height: 280vh;
+    width:100%
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 280vh;
+    margin:0px;
+  }
+
+  .pageContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(0, 247, 255);
+    font-family: SF pro;
+  }
+
+  i{
+    color: rgb(0, 229, 255);
+  }
+
+  button{
+    background: transparent;
+    border: 0px;
+  }
+  
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 350.9vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .30;
+    height: 350.9vh;
+    width:100%;
+    position: absolute;
+    z-index:-5;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+    height:0;
+  }
+
+  .header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width:100%;
+    top: 0;
+    background-color: #1c1c2c4a;
+    z-index:900;
+  }
+  
+  .modalHeader{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1c1c2c77;
+    height:60px;
+  }
+  
+  .logo{
+    color: rgb(0, 221, 255);
+    margin-left: 45px;
+    font-family: Dreamscape;
+  }
+  
+  #sun{
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  #modal {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(50, 48, 69, 0.994);
+    overflow-y: scroll;
+    z-index: 998;
+  }
+
+  #bg-lines-modal{
+    opacity: .10;
+    position: absolute;
+    height: 100vh;
+    width:100%;
+    z-index: -100;
+  }
+  
+  .modal-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+    margin-bottom: 30px;
+    row-gap: 30px;
+    font-size: 50px;
+  }
+  
+  .modal-contact{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    font-size: 50px;
+  }
+  
+  
+  header.modal-open {
+    position: static;
+  }
+  
+  #modal.modal-open {
+    display: block;
+  }
+  
+  body.modal-open{
+    overflow: hidden;
+  }
+  
+  #modal.modal-animation {
+    animation: modal-in 0.5s;
+  }
+  
+  #object2 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(212, 0, 255);
+    border-radius: 50%;
+    z-index: -3;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: blur(45px);
+  }
+  
+  #object3 {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: rgb(0, 238, 255);
+    border-radius: 30%;
+    z-index: -3;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: blur(45px);
+  }
+
+  .head{
+    display:flex;
+  }
+
+  .HeadPic{
+    height:520px;
+    margin-left:20px;
+    margin-top:20px;
+  }
+
+  .HeadText{
+    margin-left: 50px;
+    animation: slide-in 2s ease-in-out;
+  }
+
+  .HeadTitle{
+    font-family: Dreamscape;
+    color:aqua;
+    font-size: 65px;
+    letter-spacing: 8px;
+  }
+
+  .HeadQ{
+    font-family: Sf pro;
+    color: rgba(0, 234, 255, 0.587);
+  }
+
+  .HeadA{
+    font-family: SF pro;
+    color: aliceblue;
+    margin-bottom:50px;
+  }
+
+  .Overview{
+    margin-top: 150px;
+    margin-left:40px;
+    display: flex;
+  }
+  
+  .OverviewT{
+    color: rgba(0, 229, 255, 0.613);
+    font-family: SF pro;
+  }
+
+  .OverviewP{
+    color: aliceblue;
+    font-family: SF pro;
+    width:450px;
+  }
+
+  .OverviewIMG{
+    width:900px;
+    margin-top: 20px;
+    z-index: 900;
+    transition: zoomOut 1s ease-in-out;
+    animation: ZoomOut 1s ease-in-out;
+  }
+
+  
+footer{
+  background-color: #1c1c2c6e;
+  height:90px;
+  display:flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top: 200px;
+}
+  
+  .footerModal{
+    background-color: #1c1c2c6e;
+    height:90px;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top:410px;
+  }
+  
+  
+  .twitter{
+    font-size: 50px;
+    margin-right:20px;
+  }
+  
+  .github{
+    font-size: 50px;
+    margin-left:20px;
+  }
+  
+  .social{
+    margin-top:300px;
+  }
+  
+  .footer-name{
+    color:#ffffff;
+    font-family: SF pro;
+    margin-right: 400px;
+    font-size: 25px;
+  }
+  
+  .name{
+    color:#00ccff;
+  }
+
+  .computer{
+    z-index: 890;
+    height:750px;
+    margin-left:50px;
+    margin-top:80px;
+  }
+
+  .previewVid{
+    margin-left:50px;
+    margin-top:80px;
+  }
+
+  .my-video{
+    animation-play-state: running !important;
+  }
+
+.title{
+  font-family: Sf pro;
+  color: rgba(0, 234, 255, 0.587);
+  margin-left:50px;
+  margin-top:80px;
+}
+
+.about{
+  width:70%
+}
+
+.paragraph{
+  margin-top: 45px;
+  font-family: SF pro;
+  font-size: 20px;
+  color: rgb(255, 237, 237);
+  font-size: 25px;
+  width:80%;
+  margin-left: 50px;
+}
+
+  @keyframes slide-in {
+    from{
+        transform: translatex(0);
+        opacity: 0;
+    }
+    to {
+        transform: translatex(29);
+        opacity: 1;
+    }
+  }
+
+  @keyframes modal-in {
+    from {transform: translateY(-100%);}
+    to {transform: translateY(0);}
+  }
+  
+  @keyframes modal-out {
+    from {transform: translateY(0);}
+    to {transform: translateY(-100%);}
+  }
+
+
+  @media screen and (max-width:1500px){
+    .HeadPic{
+      height:480px;
+      margin-left:15px;
+      margin-top:20px;
+    }
+
+    .HeadText{
+      margin-left: 40px;
+      animation: slide-in 2s ease-in-out;
+    }
+
+    .HeadTitle{
+      font-family: Dreamscape;
+      color:aqua;
+      font-size: 50px;
+      letter-spacing: 6px;
+    }
+  
+    .Overview{
+      margin-top: 150px;
+      margin-left:40px;
+      display: flex;
+    }
+    
+    .OverviewT{
+      color: rgba(0, 229, 255, 0.613);
+      font-family: SF pro;
+    }
+  
+    .OverviewP{
+      color: aliceblue;
+      font-family: SF pro;
+      width:390px;
+    }
+  
+    .OverviewIMG{
+      width:815px;
+      margin-top: 20px;
+      z-index: 900;
+
+    }
+
+    .computer{
+      z-index: 890;
+      height:670px;
+      margin-left:40px;
+      margin-top:80px;
+    }
+  
+    .previewVid{
+      margin-left:40px;
+      margin-top:80px;
+      height:670px;
+    }
+
+    html{
+      height: 380vh;
+      width:100%
+    }
+    
+    body{
+      background-color: #1c1c2c;
+      height: 380vh;
+      margin:0px;
+    }
+
+    #filter{
+      background: rgba(10, 10, 10, 0.55);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height: 380vh;
+      z-index: -2;
+    }
+    
+    #bg-lines{
+      opacity: .10;
+      height: 380vh;
+      width:100%;
+      position: absolute;
+      z-index:-5;
+    }
+
+    .about{
+      width:90%
+    }
+
+    footer{
+      background-color: #1c1c2c6e;
+      position: absolute;
+      width: 100%;
+      height: 5 rem;  
+      display:flex;
+      justify-content: center;
+      column-gap: 200px;
+      margin-top: 100px;
+    }
+
+    .footerModal{
+      background-color: #1c1c2c6e;
+      height:90px;
+      bottom:0;
+      display:flex;
+      justify-content: center;
+      column-gap: 100px;
+      margin-top:258px;
+    }
+  }
+  
+  @media screen and (max-width:480px){
+  
+    html{
+      height: 424vh;
+      width:100%;
+    }
+    
+    body{
+      background-color: #1c1c2c;
+      height: 424vh;
+      width:100%;
+      margin:0px;
+    }
+    
+    
+    
+    #filter{
+      background: rgba(10, 10, 10, 0.55);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height: 424vh;
+      z-index: -2;
+    }
+    
+    #bg-lines{
+      opacity: .10;
+      position: absolute;
+      height: 424vh;
+      width:100%;
+    }
+  
+    .footer-name{
+      color:#ffffff;
+      font-family: SF pro;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    
+    .twitter{
+      font-size: 40px;
+    }
+    
+    .github{
+      font-size: 40px;
+    }
+    
+    .socials{
+      margin-top:20px;
+      display:flex;
+    }
+  
+  .footerModal{
+    background-color: #1c1c2c6e;
+    height:90px;
+    display:flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top:190px;
+  }
+
+  .previewVid{
+    margin-left:0px;
+    margin-top:0px;
+    width:400px;
+  }
+
+  .computer{
+    z-index: 890;
+    width:400px;
+    height:auto;
+    margin-left:10px;
+    margin-top:80px;
+  }
+
+  .Overview {
+    margin-top: 150px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .OverviewIMG{
+    width:400px;
+    z-index: 900;
+    transition: zoomOut 1s ease-in-out;
+    animation: ZoomOut 1s ease-in-out;
+  }
+
+  .head{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+  .HeadPic{
+    height:240px;
+    margin-top:20px;
+  }
+
+  .title{
+    font-family: Sf pro;
+    color: rgba(0, 234, 255, 0.587);
+    margin-left:50px;
+    margin-top:0px;
+  }
+  }
+  
