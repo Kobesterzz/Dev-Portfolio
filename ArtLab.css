@@ -17,12 +17,12 @@ html{
 
   a{
     text-decoration: none;
-    color: rgb(0, 247, 255);
+    color: rgb(0, 255, 166);
     font-family: SF pro;
   }
 
   i{
-    color: rgb(0, 229, 255);
+    color: rgb(0, 255, 166);
   }
 
   button{
@@ -73,7 +73,7 @@ html{
   }
   
   .logo{
-    color: rgb(0, 221, 255);
+    color: rgb(0, 255, 166);
     margin-left: 45px;
     font-family: Dreamscape;
   }
@@ -158,7 +158,7 @@ html{
     position: absolute;
     width: 300px;
     height: 240px;
-    background-color: rgb(0, 238, 255);
+    background-color: rgb(0, 255, 166);
     border-radius: 30%;
     z-index: -3;
     animation-name: spin;
@@ -181,18 +181,19 @@ html{
   .HeadText{
     margin-left: 50px;
     animation: slide-in 2s ease-in-out;
+    color:rgb(0, 255, 166);
   }
 
   .HeadTitle{
     font-family: Dreamscape;
-    color:aqua;
+    color:rgb(0, 255, 166);
     font-size: 65px;
     letter-spacing: 8px;
   }
 
   .HeadQ{
     font-family: Sf pro;
-    color: rgba(0, 234, 255, 0.587);
+    color: rgb(0, 255, 166);
   }
 
   .HeadA{
@@ -208,7 +209,7 @@ html{
   }
   
   .OverviewT{
-    color: rgba(0, 229, 255, 0.613);
+    color: rgb(0, 255, 166);
     font-family: SF pro;
   }
 
@@ -269,7 +270,7 @@ footer{
   }
   
   .name{
-    color:#00ccff;
+    color:rgb(0, 255, 166);
   }
 
   .computer{
@@ -290,7 +291,7 @@ footer{
 
 .title{
   font-family: Sf pro;
-  color: rgba(0, 234, 255, 0.587);
+  color: rgb(0, 255, 166);
   margin-left:50px;
   margin-top:80px;
 }
