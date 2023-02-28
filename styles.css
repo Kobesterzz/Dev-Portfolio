@@ -330,6 +330,16 @@ body.modal-open{
   justify-content: center;
 }
 
+.overlayTitle2{
+  font-family: SF pro;
+  font-size: 30px;
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .Projects{
   margin-bottom: 120px;
   display: flex;
@@ -619,6 +629,8 @@ footer{
     height: 470vh;
     width:100%
   }
+
+ 
   
   body{
     background-color: #1c1c2c;

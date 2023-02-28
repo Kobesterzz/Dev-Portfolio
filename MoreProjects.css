@@ -247,6 +247,14 @@ body.modal-open{
   justify-content: center;
 }
 
+.overlayTitle2{
+  font-family: SF pro;
+  font-size: 30px;
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+}
+
 
 :hover.overlayTitle{ 
   text-decoration:none;
