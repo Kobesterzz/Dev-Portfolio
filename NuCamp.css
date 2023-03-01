@@ -333,7 +333,7 @@ margin-left: 50px;
 
   .HeadTitle{
     font-family: Dreamscape;
-    color:aqua;
+    color:rgb(0, 255, 145);;
     font-size: 50px;
     letter-spacing: 6px;
   }
@@ -345,7 +345,7 @@ margin-left: 50px;
   }
   
   .OverviewT{
-    color: rgba(0, 229, 255, 0.613);
+    color: rgb(0, 255, 145);;
     font-family: SF pro;
   }
 
