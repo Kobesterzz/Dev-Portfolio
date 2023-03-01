@@ -677,8 +677,8 @@ footer{
     height:90px;
     display:flex;
     justify-content: center;
-    column-gap: 100px;
-    margin-top:89px;
+    column-gap: 105px;
+    margin-top:225px;
   }
 
   .modal-content{

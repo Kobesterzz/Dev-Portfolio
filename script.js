@@ -30,6 +30,7 @@ function Dark(){
   document.getElementById('line2').style.color='rgb(0, 255, 166)';
   document.getElementById('line1').style.color='white';
   document.getElementById('line3').style.color='white';
+  document.getElementById('paragraph-About').style.color='white';
   document.getElementById('paragraph').style.color='white';
   document.getElementById('modal').style.backgroundColor='rgba(50, 48, 69, 0.994)';
   document.getElementById('wannaTalk').style.color='white';
@@ -61,6 +62,7 @@ function Light(){
     document.getElementById('line3').style.color='black';
     document.getElementById('line2').style.color='white';
     document.getElementById('paragraph').style.color='black';
+    document.getElementById('paragraph-About').style.color='black';
     document.getElementById('modal').style.backgroundColor='#dfdfdf';
     document.getElementById('modal').style.color="white";
     document.getElementById('wannaTalk').style.color='white';
