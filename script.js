@@ -56,16 +56,16 @@ function Light(){
   localStorage.setItem('Light', 'true');
   localStorage.setItem('Dark', 'false');
   if(localStorage.getItem('Light') === 'true'){
-    document.body.style.backgroundColor= "rgb(216, 216, 216)";
+    document.body.style.backgroundColor= "#CFD8DC";
     document.getElementById("filter").style.opacity = .02;
     document.getElementById('line1').style.color='black';
     document.getElementById('line3').style.color='black';
-    document.getElementById('line2').style.color='white';
+    document.getElementById('line2').style.color='rgb(0, 161, 105';
     document.getElementById('paragraph').style.color='black';
     document.getElementById('paragraph-About').style.color='black';
     document.getElementById('modal').style.backgroundColor='#dfdfdf';
     document.getElementById('modal').style.color="white";
-    document.getElementById('wannaTalk').style.color='white';
+    document.getElementById('wannaTalk').style.color='black';
     document.getElementById('footer-name').style.color='white';
     document.getElementById('title1').style.color='white';
     document.getElementById('title2').style.color='white';
