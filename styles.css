@@ -89,11 +89,66 @@ i{
 }
 
 .landingQuote{
-  margin-left: 110px;
+  margin-left: 50px;
+  z-index: -1;
+}
+
+/*#cursor {
+  position: fixed;
+  top: -16px;
+  left: -16px;
+  z-index: 1;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #e0e1dd;
+  opacity: 0;
+}*/
+
+.skill-ball{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#cursor.-activated {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.tags-cloud {
+  position: fixed;
+  top: calc(50% - 30vmin);
+  left: calc(50% - 30vmin);
+  height: 60vmin;
+  width: 60vmin;
+  list-style: none;
+  opacity: 1;
+  font-family: SF pro;
+  color: #ffffff;
+}
+
+.tags-cloud.-loaded {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.tags-cloud > .tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 5vmin;
+  font-weight: bold;
+  transition: transform .5s linear, opacity .5s linear;
+}
+
+.tags-cloud > .tag > .wrap {
+  display: inline-block;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .intro{
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .line1{
@@ -108,12 +163,12 @@ i{
   letter-spacing: 10px;
   color: rgb(0, 255, 166);
   font-style: italic;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 
 .line3{
-  margin-top: 55px;
+  margin-top: 45px;
   font-family: League Spartan;
   color: #ffffff;
 }
@@ -414,7 +469,16 @@ footer{
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 @keyframes modal-in {
   from {transform: translateY(-100%);}

@@ -60,7 +60,7 @@ function Light(){
     document.getElementById("filter").style.opacity = .02;
     document.getElementById('line1').style.color='black';
     document.getElementById('line3').style.color='black';
-    document.getElementById('line2').style.color='rgb(0, 161, 105';
+    document.getElementById('line2').style.color='rgb(0, 161, 105)';
     document.getElementById('paragraph').style.color='black';
     document.getElementById('paragraph-About').style.color='black';
     document.getElementById('modal').style.backgroundColor='#dfdfdf';
@@ -80,6 +80,7 @@ function Light(){
     document.getElementById('modalAbo').style.color='black';
     document.getElementById('modalPro').style.color='black';
     document.getElementById('modalCon').style.color='black';
+    document.getElementById('tags-cloud').style.color='black';
   }
 }
 
