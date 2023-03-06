@@ -8,9 +8,8 @@ body{
   height: 335.5vh;
   width:100%;
   margin:0px;
+  position: relative;
 }
-
-
 
 #filter{
   background: rgba(10, 10, 10, 0.55);
@@ -93,32 +92,23 @@ i{
   z-index: -1;
 }
 
-/*#cursor {
-  position: fixed;
-  top: -16px;
-  left: -16px;
-  z-index: 1;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
-  background: #e0e1dd;
-  opacity: 0;
-}*/
 
 .skill-ball{
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   z-index: -1;
-}
+  margin-left:300px;
+  margin-top:150px;
+  }  
 
 #cursor.-activated {
   animation: fadeIn 1s ease-out forwards;
 }
 
 .tags-cloud {
-  position: fixed;
+  /*position: fixed;*/
   top: calc(50% - 30vmin);
   left: calc(50% - 30vmin);
   height: 60vmin;
@@ -292,7 +282,7 @@ body.modal-open{
   border-radius: 50%;
   z-index: -3;
   animation-name: spin;
-  animation-duration: 5000ms;
+  animation-duration: 10000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   filter: blur(45px);
@@ -306,7 +296,7 @@ body.modal-open{
   border-radius: 30%;
   z-index: -3;
   animation-name: spin;
-  animation-duration: 5000ms;
+  animation-duration: 10000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   filter: blur(45px);
