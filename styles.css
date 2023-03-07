@@ -93,52 +93,8 @@ i{
 }
 
 
-.skill-ball{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  z-index: -1;
-  margin-left:300px;
-  margin-top:150px;
-  }  
-
-#cursor.-activated {
-  animation: fadeIn 1s ease-out forwards;
-}
-
-.tags-cloud {
-  /*position: fixed;*/
-  top: calc(50% - 30vmin);
-  left: calc(50% - 30vmin);
-  height: 60vmin;
-  width: 60vmin;
-  list-style: none;
-  opacity: 1;
-  font-family: SF pro;
-  color: #ffffff;
-}
-
-.tags-cloud.-loaded {
-  animation: fadeIn 1s ease-out forwards;
-}
-
-.tags-cloud > .tag {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 5vmin;
-  font-weight: bold;
-  transition: transform .5s linear, opacity .5s linear;
-}
-
-.tags-cloud > .tag > .wrap {
-  display: inline-block;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .intro{
-  font-size: 30px;
+  font-size: 33px;
 }
 
 .line1{
@@ -148,7 +104,7 @@ i{
 }
 
 .line2{
-  margin-top: 45px;
+  margin-top: 65px;
   font-family: League Spartan;
   letter-spacing: 10px;
   color: rgb(0, 255, 166);
@@ -158,7 +114,7 @@ i{
 
 
 .line3{
-  margin-top: 45px;
+  margin-top: 65px;
   font-family: League Spartan;
   color: #ffffff;
 }
@@ -206,10 +162,6 @@ i{
   margin-bottom: 80px;
 }
 
-span.emoji{
-  font-size: 120px;
-  margin-right: 125px;
-}
 
 .featuredPro{
   font-family: SF Pro;
