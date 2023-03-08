@@ -68,7 +68,7 @@ i{
 }
 
 .logo{
-  color: rgb(0, 255, 166);
+  color: rgb(0, 255, 157);
   margin-left: 45px;
   font-family: Dreamscape;
 }
@@ -88,7 +88,7 @@ i{
 }
 
 .landingQuote{
-  margin-left: 50px;
+  margin-left: 150px;
   z-index: -1;
 }
 
@@ -633,7 +633,7 @@ footer{
 
 @media screen and (max-width:1500px){
   html{
-    height: 395vh;
+    height: 410vh;
     width:100%
   }
 
@@ -641,7 +641,7 @@ footer{
   
   body{
     background-color: #1c1c2c;
-    height: 395vh;
+    height: 410vh;
     margin:0px;
   }
 
@@ -651,14 +651,14 @@ footer{
     top: 0;
     left: 0;
     width:100%;
-    height: 395vh;
+    height: 410vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 395vh;
+    height: 410vh;
     width:100%;
   }
   
@@ -685,7 +685,7 @@ footer{
     display:flex;
     justify-content: center;
     column-gap: 105px;
-    margin-top:225px;
+    margin-top:195px;
   }
 
   .modal-content{
@@ -698,6 +698,11 @@ footer{
     row-gap: 45px;
     font-size: 50px;
     z-index: 2000;
+  }
+
+  .landingQuote{
+    margin-left: 100px;
+    z-index: -1;
   }
   
 }

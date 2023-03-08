@@ -30,14 +30,16 @@ function Dark(){
   document.getElementById('line2').style.color='rgb(0, 255, 166)';
   document.getElementById('line1').style.color='white';
   document.getElementById('line3').style.color='white';
-  document.getElementById('paragraph-About').style.color='white';
   document.getElementById('paragraph').style.color='white';
   document.getElementById('modal').style.backgroundColor='rgba(50, 48, 69, 0.994)';
+  document.getElementById('tags-cloud').style.color='rgb(0, 255, 166)';
   document.getElementById('wannaTalk').style.color='white';
   document.getElementById('overlayArrow2').style.color='rgb(0, 255, 166)';
   document.getElementById('overlayArrow1').style.color='rgb(0, 255, 166)';
   document.getElementById('overlayTitle1').style.color='rgb(0, 255, 166)';
   document.getElementById('overlayTitle2').style.color='rgb(0, 255, 166)';
+  document.getElementById('overlayArrow3').style.color='rgb(0, 255, 166)';
+    document.getElementById('overlayTitle3').style.color='rgb(0, 255, 166)';
   document.getElementById('ViewMore1').style.color='rgb(0, 255, 166)';
   document.getElementById('ViewMore2').style.color='rgb(0, 255, 166)';
   document.getElementById('footer-name').style.color='white';
@@ -48,6 +50,16 @@ function Dark(){
   document.getElementById('modalAbo').style.color='rgb(0, 255, 166)';
   document.getElementById('modalPro').style.color='rgb(0, 255, 166)';
   document.getElementById('modalCon').style.color='rgb(0, 255, 166)';
+  document.getElementById('logo').style.color='rgb(0, 255, 166)';
+  document.getElementById('hamburger-button').style.color='rgb(0, 255, 166)';
+    document.getElementById('name').style.color='rgb(0, 255, 166)';
+    document.getElementById('twitter').style.color='rgb(0, 255, 166)';
+    document.getElementById('gitHub').style.color='rgb(0, 255, 166)';
+    document.getElementById('close-button').style.color='rgb(0, 255, 166)';
+    document.getElementById('logo-modal').style.color='rgb(0, 255, 166)';
+    document.getElementById('nameModal').style.color='rgb(0, 255, 166)';
+    document.getElementById('twitterModal').style.color='rgb(0, 255, 166)';
+    document.getElementById('gitHubModal').style.color='rgb(0, 255, 166)';
   }
 }
 
@@ -60,26 +72,36 @@ function Light(){
     document.getElementById("filter").style.opacity = .02;
     document.getElementById('line1').style.color='black';
     document.getElementById('line3').style.color='black';
-    document.getElementById('line2').style.color='rgb(0, 161, 105)';
+    document.getElementById('line2').style.color='rgb(255, 0, 242)';
+    document.getElementById('title1').style.color='rgb(255, 0, 242)';
+    document.getElementById('title2').style.color='rgb(255, 0, 242)';
+    document.getElementById('tags-cloud').style.color='rgb(255, 0, 242)';
     document.getElementById('paragraph').style.color='black';
-    document.getElementById('paragraph-About').style.color='black';
-    document.getElementById('modal').style.backgroundColor='#dfdfdf';
-    document.getElementById('modal').style.color="white";
+    document.getElementById('contact').style.color='rgb(255, 0, 242)';
+    document.getElementById('overlayArrow2').style.color='rgb(255, 0, 242)';
+    document.getElementById('overlayArrow1').style.color='rgb(255, 0, 242)';
+    document.getElementById('overlayTitle1').style.color='rgb(255, 0, 242)';
+    document.getElementById('overlayTitle2').style.color='rgb(255, 0, 242)';
+    document.getElementById('overlayArrow3').style.color='rgb(255, 0, 242)';
+    document.getElementById('overlayTitle3').style.color='rgb(255, 0, 242)';
+    document.getElementById('modalHom').style.color='rgb(255, 0, 242)';
+    document.getElementById('modalAbo').style.color='rgb(255, 0, 242)';
+    document.getElementById('modalPro').style.color='rgb(255, 0, 242)';
+    document.getElementById('modalCon').style.color='rgb(255, 0, 242)';
+    document.getElementById('ViewMore1').style.color='rgb(255, 0, 242)';
+    document.getElementById('ViewMore2').style.color='rgb(255, 0, 242)';
     document.getElementById('wannaTalk').style.color='black';
-    document.getElementById('footer-name').style.color='white';
-    document.getElementById('title1').style.color='white';
-    document.getElementById('title2').style.color='white';
-    document.getElementById('contact').style.color='black';
-    document.getElementById('overlayTitle1').style.color='black';
-    document.getElementById('overlayTitle2').style.color='black';
-    document.getElementById('overlayArrow2').style.color='black';
-    document.getElementById('overlayArrow1').style.color='black';
-    document.getElementById('ViewMore1').style.color='white';
-    document.getElementById('ViewMore2').style.color='white';
-    document.getElementById('modalHom').style.color='black';
-    document.getElementById('modalAbo').style.color='black';
-    document.getElementById('modalPro').style.color='black';
-    document.getElementById('modalCon').style.color='black';
+    document.getElementById('logo').style.color='rgb(255, 0, 242)';
+    document.getElementById('hamburger-button').style.color='rgb(255, 0, 242)';
+    document.getElementById('footer-name').style.color='black';
+    document.getElementById('name').style.color='rgb(255, 0, 242)';
+    document.getElementById('twitter').style.color='rgb(255, 0, 242)';
+    document.getElementById('gitHub').style.color='rgb(255, 0, 242)';
+    document.getElementById('close-button').style.color='rgb(255, 0, 242)';
+    document.getElementById('logo-modal').style.color='rgb(255, 0, 242)';
+    document.getElementById('nameModal').style.color='rgb(255, 0, 242)';
+    document.getElementById('twitterModal').style.color='rgb(255, 0, 242)';
+    document.getElementById('gitHubModal').style.color='rgb(255, 0, 242)';
   }
 }
 
