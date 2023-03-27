@@ -497,7 +497,7 @@ footer{
       margin-bottom: 0px;
       display: flex;
       align-items: center;
-      flex-direction: row;
+      flex-direction: column;
   }
 
   .contactLink{
@@ -555,13 +555,13 @@ footer{
 
 @media screen and (max-width:1000px){
   html{
-    height: 490vh;
+    height: 600vh;
     width:100%
   }
   
   body{
     background-color: #1c1c2c;
-    height: 550vh;
+    height: 600vh;
     margin:0px;
   }
 
@@ -578,7 +578,7 @@ footer{
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 750vh;
+    height: 600vh;
     width:100%;
   }
   
@@ -605,14 +605,16 @@ footer{
   }
 
   #nucamp{
-    width:60%;
+    margin-bottom: 80px;
+    width:100%;
   }
 
   .Projects{
-    margin-bottom: 280px;
+    margin-bottom: 0px;
     display: flex;
-    flex-direction: row;
-  }
+    align-items: center;
+    flex-direction: column;
+}
 
 
   .contactLink{
@@ -658,7 +660,7 @@ footer{
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 450vh;
+    height: 45``0vh;
     width:100%;
   }
   
