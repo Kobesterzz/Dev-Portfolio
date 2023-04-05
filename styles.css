@@ -553,6 +553,32 @@ footer{
   }
 }
 
+@media screen and (max-width:680px){
+  .footer-name{
+    display: none;
+  }
+
+  #ArtLab{
+    display:flex;
+    height: 375px;
+    width:68.5%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  #nucamp{
+    display:flex;
+    height: 375px;
+    width:70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
 @media screen and (max-width:1000px){
   html{
     height: 600vh;

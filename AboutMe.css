@@ -572,6 +572,7 @@ footer{
 
 
 
+
 @media screen and (max-width:480px){
   
   html{
@@ -619,12 +620,6 @@ footer{
 }
 
 
-.footer-name{
-  color:#ffffff;
-  font-family: SF pro;
-  margin-right: 10px;
-  font-size: 25px;
-}
 
 .twitter{
   font-size: 40px;
