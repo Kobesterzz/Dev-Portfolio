@@ -42,11 +42,26 @@
       transform: translateX(-50%) translateY(-50%);
     }
     
-  
-    
-    @media screen and (max-width:1000px){
+
+     
+    @media screen and (max-width:1500px){
       .skill-ball{
         display:none;
       }
       
+    }
+
+    @media screen and (max-width:3000px){
+      .tags-cloud {
+        /*position: fixed;*/
+        top: calc(50% - 20vmin);
+        left: calc(50% - 30vmin);
+        height: 60vmin;
+        width: 60vmin;
+        list-style: none;
+        opacity: 1;
+        font-family: SF pro;
+        color: #ffffff;
+        margin-right:220px;
+      }
     }

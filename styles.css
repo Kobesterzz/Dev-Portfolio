@@ -686,7 +686,7 @@ footer{
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 45``0vh;
+    height: 450vh;
     width:100%;
   }
   
@@ -858,6 +858,54 @@ footer{
 }
 }
 
+@media screen and (max-width:3500px){
+  html{
+    height: 350vh;
+    width:100%;
+  }
+  
+  body{
+    background-color: #1c1c2c;
+    height: 350vh;
+    width:100%;
+    margin:0px;
+  }
+  
+  
+  
+  #filter{
+    background: rgba(10, 10, 10, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 350vh;
+    z-index: -2;
+  }
+  
+  #bg-lines{
+    opacity: .10;
+    position: absolute;
+    height: 350vh;
+    width:100%;
+  }
+  .landingPage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 225px;
+    margin-bottom: 300px;
+    margin-left:80px;
+  }
+  .About{
+    color:rgb(0, 255, 166);
+    font-family: SF pro;
+    font-weight: bold;
+    font-size: 40px;
+    margin:20px;
+    margin-top:30px;
+  }
+}
 
 
 
