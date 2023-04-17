@@ -44,11 +44,10 @@
     
 
      
-    @media screen and (max-width:1500px){
-      .skill-ball{
+    @media screen and (max-width:800px){
+      .skill_ball{
         display:none;
       }
-      
     }
 
     @media screen and (max-width:3000px){
