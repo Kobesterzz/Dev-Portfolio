@@ -44,9 +44,9 @@
     
 
      
-    @media screen and (max-width:800px){
-      .skill_ball{
-        display:none;
+    @media screen and (max-width:820px){
+      .tags-cloud {
+        display: none;
       }
     }
 
