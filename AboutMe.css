@@ -465,13 +465,13 @@ footer{
   }
 
   html{
-    height: 262vh;
+    height: 285vh;
     width:100%;
   }
   
   body{
     background-color: #1c1c2c;
-    height: 262vh;
+    height: 285vh;
     width:100%;
     margin:0px;
   }
@@ -482,14 +482,14 @@ footer{
     top: 0;
     left: 0;
     width:100%;
-    height: 262vh;
+    height: 285vh;
     z-index: -2;
   }
   
   #bg-lines{
     opacity: .10;
     position: absolute;
-    height: 262vh;
+    height: 285vh;
     width:100%;
   }
 
@@ -509,7 +509,7 @@ footer{
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:255px
+    margin-top:220px
   }
 
   .modal-content{
