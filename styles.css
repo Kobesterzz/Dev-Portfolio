@@ -92,6 +92,11 @@ i{
   z-index: -1;
 }
 
+.auto-type{
+  font-family: League Spartan;
+  color: #ffffff;
+}
+
 
 .intro{
   font-size: 25px;
