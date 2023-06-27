@@ -1,11 +1,11 @@
 html{
-  height: 214vh;
+  height: 220vh;
   width:100%;
 }
 
 body{
   background-color: #1c1c2c;
-  height: 214vh;
+  height: 220vh;
   width:100%;
 }
 
@@ -15,14 +15,14 @@ body{
   top: 0;
   left: 0;
   width:100%;
-  height: 216.5vh;
+  height: 220vh;
   z-index: -2;
 }
 
 #bg-lines{
   opacity: .10;
   position: absolute;
-  height: 216.5vh;
+  height: 220vh;
   width:100%;
 }
 
@@ -509,7 +509,7 @@ footer{
     display:flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top:220px
+    margin-top:175px
   }
 
   .modal-content{
