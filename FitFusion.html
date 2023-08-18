@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="512x512" href="./img/KS.png">
+    <title>NuCamp</title>
+    <link rel="stylesheet" href="./FitFusion.css">
+    <script src="script.js" defer></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+    <div id="filter"></div>
+    <img id='bg-lines' src="./img/board_black_line_texture_background_wood_55220_2560x1440.jpg">
+    <div id="gradient"></div>
+    <div id="object2"></div>
+    <div id="object3"></div>
+
+    <header class="header1">
+      <a href="index.html"><h1 class='logo'>KS</h1></a>
+        <button id="hamburger-button"><i class=" fa-lg fa-2x fa fa-bars"></i></button>
+        <div class="color-changers">
+          <button id='colorChanger' onclick="Light()"><i  class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+          <button id='colorChanger' onclick="Dark()" aria-checked="true"><i   class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+        </div>
+    </header>
+
+    <div id="modal">
+      <img id='bg-lines-modal' src="./img/board_black_line_texture_background_wood_55220_2560x1440.jpg">
+        <div id="modal-content">
+          <header>
+            <div class="modalHeader">
+              <a href="index.html" class="logo"><h1>KS</h1></a>
+              <button id="close-button"><i class="fa fa-lg fa-3x fa-close"></i></button>
+              <div class="color-changers" >
+                <button id='colorChanger' onclick="Light()"><i class="fa fa-lg fa-2x fa-sun-o" ></i></button>
+                <button id='colorChanger' onclick="Dark()"><i class="fa fa-lg fa-2x fa-moon-o" ></i></button>
+              </div>
+            </div>
+          </header>
+        
+          <!-- modal content goes here -->
+
+          <div class="modal-content">
+            <a href="index.html" id="modalHom">Home</a>
+            <a href="AboutMe.html" id="modalAbo">About Me</a>
+            <a href="./Moreprojects.html"  id="modalPro">Projects</a>
+            <a href="mailto:kobeshaw330@gmail.com?subject=Subject%20Line%20Goes%20Here" id="modalCon">Contact</a>
+          </div>
+
+          <footer class="footerModal">
+            <h1 class="footer-name">Designed by: <span class="name">Kobe Shaw</span></h1>
+            <div class="footer-content">
+
+              <div class="socials">
+                <a href="https://twitter.com/KobeShaw_code" class="twitter"><i class="fa fa-twitter"></i></a>
+            
+              
+                <a href="https://github.com/Kobesterzz" class="github"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </footer>
+        </div>
+    </div>
+
+
+    <div class="pageContent">
+      <div class="head">
+        <img src="./img/workoutTracker_cover.webp" class="HeadPic" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false" >
+        <div class="HeadText">
+          <h1 class="HeadTitle" id="animatedText" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false" >FitFusion</h1>
+          <h3 class="HeadQ">completed</h3>
+          <h2 class="HeadA">2023</h2>
+          <h3 class="HeadQ">Type</h3>
+          <h2 class="HeadA">Website Development</h2>
+          <h3 class="HeadQ">GitHub Rep</h3>
+          <div>
+            <a href="https://github.com/Kobesterzz/Workout-Tracker" class="HeadA"><i class="fa fa-github" style='font-size:50px'></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="Overview">
+        <div>
+          <h1 class="OverviewT" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            Overview</h1>
+          <h2 class="OverviewP" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            This a Website that i personally developed with the react framework
+            </h2>
+          <h1 class="OverviewT" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            Languages /Framworks </h1>
+          <h2 class="OverviewP" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+          Html / CSS / JS / React
+            </h2>
+        </div>
+        <img src="./img/workoutTracker-cover.jpg" class="OverviewIMG1" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+        
+      </div>
+    
+
+      <div class="preveiw">
+        <img src="./img/workoutTracker-workoutForm.jpg" class="computer" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+      </div>
+
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+        <img src="./img/WorkoutTracker-list.jpg" class="computer" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+      </div>
+
+      <div class="about">
+        <h1 class="title" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+          About</h1>
+        <h2 class="paragraph" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" data-aos-once="false">
+            Welcome to FitFusion, the embodiment of my dual passion for fitness and technology. Developed using the React framework, FitFusion is my personal creation, a workout app designed to streamline your fitness journey. As a solo developer, I took it upon myself to craft an app that allows users to seamlessly list and manage their workout routines, all within an intuitive interface.
+
+            FitFusion isn't just an app; it's a community. I recognized the significance of sharing and learning from others in the fitness realm. That's why FitFusion not only empowers you to organize your workouts but also connects you with fellow fitness enthusiasts. Through this app, I've combined my coding skills with my dedication to a healthier lifestyle, and I'm excited to share the fusion of these passions with you.
+            
+            Join me in embracing the fusion of fitness and technology – welcome to FitFusion! <br>
+          <br>
+          You can find the code for this code on my Git Hub :)
+          </h2>
+      </div>
+      
+    </div>
+
+    <footer>
+      <h1 class="footer-name">Designed by: <span class="name">Kobe Shaw</span></h1>
+      <div class="footer-content">
+
+        <div class="socials">
+          <a href="https://twitter.com/KobeShaw_code" class="twitter"><i class="fa fa-twitter"></i></a>
+      
+        
+          <a href="https://github.com/Kobesterzz" class="github"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
